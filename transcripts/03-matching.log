@@ -1,0 +1,18 @@
+All pieces are built and verified. Summary:
+
+**Built:**
+- `src/lib/grades.js` — `toGPA(input, scale)` for GPA/percentage/letter, `GRADE_OPTIONS` + `LETTER_GRADE_OPTIONS` for the UI
+- `src/lib/match.js` — `matchUniversities(profile, universities)`: academic fit (60%, full credit at/above minGPA, linear down to 0 at −0.4), interest fit (40%, tag overlap), Safety/Match/Reach labeling, sorted by score
+- `src/lib/countryFlags.js` — country → flag emoji helper
+- `ProfileForm` — scale selector, grade input (number or letter dropdown depending on scale), toggleable interest chips, "Find my matches" button
+- `UniversityCard` + `ResultsGrid` — animated SVG score ring, color-coded badge, field chips, tuition/living/fee/total costs, ranking, website link, CSS-only empty state and "no results" state
+- `StatsBar` — total matches, per-label counts, cheapest option, best-fit country (by avg score)
+- `FilterBar` — region chips, country chips, tuition/total-cost sliders, reach-schools toggle
+- `App.jsx` — wired with `useState`/`useMemo` only, filters applied after matching
+
+**Verified:**
+- `npm run build` passes (Vite production build, 43 modules)
+- `npm run test` runs `scripts/test-match.mjs` with 8 assertions (grade conversion for all three scales + Safety/Match/Reach labeling) — all pass
+- Spot-checked grade conversion values directly in node
+
+**Not verified:** I couldn't get a live browser check — this sandbox blocks backgrounding the dev server (`&`) even with `nohup`/`disown`, so I couldn't view the running app in Chrome. Confidence comes from the passing build/tests and manual review of prop wiring across components, not an actual rendered check. If you want, I can try again with dev-server permissions unblocked, or you can run `npm run dev` locally to eyeball it.

@@ -1,0 +1,11 @@
+Everything is wired correctly. `npm run build` and `npm run test` both pass. I attempted to spin up a local server to visually verify in a browser, but the sandbox blocked starting background/server processes without interactive approval — you can run `npm run dev` locally to see it live.
+
+Summary of what was added on top of the existing scaffold:
+
+1. **FilterBar** — country filter is now a searchable dropdown (`CountrySelect` in `FilterBar.jsx`) listing only countries present in the data, with selected-country chips below it; region chips, both sliders, and the reach toggle were already present and remain live via `useMemo` in `App.jsx`.
+2. **Currency + compact total line** — `UniversityCard` now shows `≈ $X total/yr` under the location line, alongside the existing formatted cost breakdown.
+3. **Sort control** — added to `ResultsGrid` (Best match / Lowest total cost / Ranking), applied via a new `sortedResults` `useMemo` in `App.jsx`.
+4. **Empty-results state** — `NoResults` now includes a "Relax filters" button wired to a new `resetFilters()` in `App.jsx`.
+5. **Mobile bottom sheet** — a "Filters" toggle button with an active-filter-count badge, backdrop, slide-up sheet (CSS `transform`/`display: contents` swap at `max-width: 640px`), close button, and Escape-key handling.
+6. **Polish** — card entrance animation (`@keyframes card-enter`, respects `prefers-reduced-motion`), `:focus-visible` rings on buttons/chips/sliders/links, and `@media print` rules (light background, hides interactive chrome, avoids card page-breaks).
+7. Both `npm run build` and `npm run test` pass.

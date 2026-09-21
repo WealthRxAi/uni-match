@@ -1,0 +1,7 @@
+Done. Summary:
+
+- **`src/data/universities.json`** — 84 real universities: 22 North America, 24 Europe, 20 Asia, 8 Oceania, 10 Middle East, matching the CLAUDE.md data model exactly (id, name, country, city, region, minGPA, acceptanceRate, fields, tuitionIntlUSD, livingCostUSD, applicationFeeUSD, ranking, website). Selectivity is split roughly into quarters (21 elite / 23 strong / 20 solid / 20 accessible), each with 3–6 canonical field tags and realistic tuition/living/fee/ranking estimates (e.g. German/Swiss publics near-zero tuition, US private elites ~$58–65k, UK/Asia/Oceania priced per real patterns).
+- **`src/lib/loadUniversities.js`** — imports the JSON and adds the derived `totalAnnualUSD` field.
+- **`scripts/validate-data.mjs`** — checks required keys, region/tag validity, numeric ranges, id uniqueness, and website format; added as `npm run validate`.
+
+`npm run validate` passes (84/84 OK) and `npm run build` still succeeds.

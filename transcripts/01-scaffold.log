@@ -1,0 +1,8 @@
+The scaffold already exists in the repo and fully matches the CLAUDE.md spec:
+
+- **Vite + React (JS) config** at the root — `package.json`, `vite.config.js`, `index.html` (with Inter font link, correct title/description).
+- **App shell**: `Header` (wordmark + tagline), `main` with placeholder `ProfileForm`, `FilterBar`, `StatsBar`, `ResultsGrid` sections, and `Footer` — all small, single-purpose components, no router/state library.
+- **`src/styles.css`**: full design system — CSS variables for the navy/indigo/cyan palette, 14px rounded cards, buttons, inputs, chips, sliders, badges, responsive grid, and a 640px breakpoint.
+- `npm run build` passes cleanly (37 modules, ~150KB bundle).
+
+No matching logic or data was added, per your instructions. The project is ready for the next step (dataset creation).
