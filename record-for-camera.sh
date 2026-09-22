@@ -12,7 +12,7 @@
 # start the take), then runs the real `claude` session.
 set -u
 SRC="$(cd "$(dirname "$0")" && pwd)"
-DEST="$SRC/../uni-match-live"
+DEST="${DEST:-$SRC/../uni-match-take-$(date +%m%d-%H%M)}"
 START="${1:-1}"
 mkdir -p "$DEST" && cd "$DEST"
 cp -n "$SRC/CLAUDE.md" . 2>/dev/null
