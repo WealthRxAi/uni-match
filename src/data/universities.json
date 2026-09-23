@@ -1711,5 +1711,4333 @@
     "applicationFeeUSD": 0,
     "ranking": 150,
     "website": "https://www.kaust.edu.sa"
+  },
+  {
+    "id": "u085",
+    "name": "University of Warwick",
+    "country": "United Kingdom",
+    "city": "Coventry",
+    "region": "Europe",
+    "minGPA": 3.7,
+    "acceptanceRate": 0.15,
+    "fields": [
+      "Business",
+      "Economics",
+      "Computer Science",
+      "Mathematics",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 28000,
+    "livingCostUSD": 14000,
+    "applicationFeeUSD": 75,
+    "ranking": 67,
+    "website": "https://warwick.ac.uk"
+  },
+  {
+    "id": "u086",
+    "name": "University of Bristol",
+    "country": "United Kingdom",
+    "city": "Bristol",
+    "region": "Europe",
+    "minGPA": 3.6,
+    "acceptanceRate": 0.18,
+    "fields": [
+      "Engineering",
+      "Natural Sciences",
+      "Law",
+      "Social Sciences",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 27000,
+    "livingCostUSD": 14500,
+    "applicationFeeUSD": 75,
+    "ranking": 61,
+    "website": "https://www.bristol.ac.uk"
+  },
+  {
+    "id": "u087",
+    "name": "University of Glasgow",
+    "country": "United Kingdom",
+    "city": "Glasgow",
+    "region": "Europe",
+    "minGPA": 3.5,
+    "acceptanceRate": 0.22,
+    "fields": [
+      "Medicine",
+      "Law",
+      "Social Sciences",
+      "Natural Sciences",
+      "Engineering"
+    ],
+    "tuitionIntlUSD": 25000,
+    "livingCostUSD": 12000,
+    "applicationFeeUSD": 60,
+    "ranking": 76,
+    "website": "https://www.gla.ac.uk"
+  },
+  {
+    "id": "u088",
+    "name": "Durham University",
+    "country": "United Kingdom",
+    "city": "Durham",
+    "region": "Europe",
+    "minGPA": 3.65,
+    "acceptanceRate": 0.16,
+    "fields": [
+      "Business",
+      "Law",
+      "Natural Sciences",
+      "Social Sciences",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 27500,
+    "livingCostUSD": 12500,
+    "applicationFeeUSD": 70,
+    "ranking": 78,
+    "website": "https://www.durham.ac.uk"
+  },
+  {
+    "id": "u089",
+    "name": "University of Southampton",
+    "country": "United Kingdom",
+    "city": "Southampton",
+    "region": "Europe",
+    "minGPA": 3.4,
+    "acceptanceRate": 0.28,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Medicine",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 24000,
+    "livingCostUSD": 12500,
+    "applicationFeeUSD": 60,
+    "ranking": 90,
+    "website": "https://www.southampton.ac.uk"
+  },
+  {
+    "id": "u090",
+    "name": "University of Leeds",
+    "country": "United Kingdom",
+    "city": "Leeds",
+    "region": "Europe",
+    "minGPA": 3.4,
+    "acceptanceRate": 0.3,
+    "fields": [
+      "Business",
+      "Engineering",
+      "Law",
+      "Social Sciences",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 25000,
+    "livingCostUSD": 12000,
+    "applicationFeeUSD": 60,
+    "ranking": 92,
+    "website": "https://www.leeds.ac.uk"
+  },
+  {
+    "id": "u091",
+    "name": "University of Sheffield",
+    "country": "United Kingdom",
+    "city": "Sheffield",
+    "region": "Europe",
+    "minGPA": 3.2,
+    "acceptanceRate": 0.38,
+    "fields": [
+      "Engineering",
+      "Social Sciences",
+      "Natural Sciences",
+      "Architecture"
+    ],
+    "tuitionIntlUSD": 24000,
+    "livingCostUSD": 11500,
+    "applicationFeeUSD": 60,
+    "ranking": 104,
+    "website": "https://www.sheffield.ac.uk"
+  },
+  {
+    "id": "u092",
+    "name": "University of Birmingham",
+    "country": "United Kingdom",
+    "city": "Birmingham",
+    "region": "Europe",
+    "minGPA": 3.4,
+    "acceptanceRate": 0.3,
+    "fields": [
+      "Business",
+      "Medicine",
+      "Law",
+      "Engineering",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 25000,
+    "livingCostUSD": 12000,
+    "applicationFeeUSD": 65,
+    "ranking": 84,
+    "website": "https://www.birmingham.ac.uk"
+  },
+  {
+    "id": "u093",
+    "name": "University of Nottingham",
+    "country": "United Kingdom",
+    "city": "Nottingham",
+    "region": "Europe",
+    "minGPA": 3.15,
+    "acceptanceRate": 0.42,
+    "fields": [
+      "Business",
+      "Engineering",
+      "Natural Sciences",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 24500,
+    "livingCostUSD": 11500,
+    "applicationFeeUSD": 60,
+    "ranking": 101,
+    "website": "https://www.nottingham.ac.uk"
+  },
+  {
+    "id": "u094",
+    "name": "University of Exeter",
+    "country": "United Kingdom",
+    "city": "Exeter",
+    "region": "Europe",
+    "minGPA": 3.4,
+    "acceptanceRate": 0.32,
+    "fields": [
+      "Business",
+      "Law",
+      "Natural Sciences",
+      "Social Sciences",
+      "Psychology"
+    ],
+    "tuitionIntlUSD": 25500,
+    "livingCostUSD": 12000,
+    "applicationFeeUSD": 65,
+    "ranking": 155,
+    "website": "https://www.exeter.ac.uk"
+  },
+  {
+    "id": "u095",
+    "name": "University of St Andrews",
+    "country": "United Kingdom",
+    "city": "St Andrews",
+    "region": "Europe",
+    "minGPA": 3.6,
+    "acceptanceRate": 0.22,
+    "fields": [
+      "Economics",
+      "Natural Sciences",
+      "Arts & Design",
+      "Social Sciences",
+      "Mathematics"
+    ],
+    "tuitionIntlUSD": 30000,
+    "livingCostUSD": 13000,
+    "applicationFeeUSD": 70,
+    "ranking": 95,
+    "website": "https://www.st-andrews.ac.uk"
+  },
+  {
+    "id": "u096",
+    "name": "Lancaster University",
+    "country": "United Kingdom",
+    "city": "Lancaster",
+    "region": "Europe",
+    "minGPA": 3.1,
+    "acceptanceRate": 0.45,
+    "fields": [
+      "Business",
+      "Social Sciences",
+      "Natural Sciences",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 23000,
+    "livingCostUSD": 11000,
+    "applicationFeeUSD": 55,
+    "ranking": 141,
+    "website": "https://www.lancaster.ac.uk"
+  },
+  {
+    "id": "u097",
+    "name": "Loughborough University",
+    "country": "United Kingdom",
+    "city": "Loughborough",
+    "region": "Europe",
+    "minGPA": 3,
+    "acceptanceRate": 0.48,
+    "fields": [
+      "Engineering",
+      "Business",
+      "Social Sciences",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 23500,
+    "livingCostUSD": 11000,
+    "applicationFeeUSD": 55,
+    "ranking": 122,
+    "website": "https://www.lboro.ac.uk"
+  },
+  {
+    "id": "u098",
+    "name": "Oxford Brookes University",
+    "country": "United Kingdom",
+    "city": "Oxford",
+    "region": "Europe",
+    "minGPA": 2.5,
+    "acceptanceRate": 0.78,
+    "fields": [
+      "Business",
+      "Architecture",
+      "Arts & Design",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 18000,
+    "livingCostUSD": 12000,
+    "applicationFeeUSD": 0,
+    "ranking": 9999,
+    "website": "https://www.brookes.ac.uk"
+  },
+  {
+    "id": "u099",
+    "name": "RWTH Aachen University",
+    "country": "Germany",
+    "city": "Aachen",
+    "region": "Europe",
+    "minGPA": 3.5,
+    "acceptanceRate": 0.3,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Natural Sciences",
+      "Mathematics"
+    ],
+    "tuitionIntlUSD": 700,
+    "livingCostUSD": 11000,
+    "applicationFeeUSD": 75,
+    "ranking": 99,
+    "website": "https://www.rwth-aachen.de"
+  },
+  {
+    "id": "u100",
+    "name": "Technical University of Berlin",
+    "country": "Germany",
+    "city": "Berlin",
+    "region": "Europe",
+    "minGPA": 3.3,
+    "acceptanceRate": 0.36,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Architecture",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 0,
+    "livingCostUSD": 14000,
+    "applicationFeeUSD": 0,
+    "ranking": 154,
+    "website": "https://www.tu.berlin"
+  },
+  {
+    "id": "u101",
+    "name": "TU Darmstadt",
+    "country": "Germany",
+    "city": "Darmstadt",
+    "region": "Europe",
+    "minGPA": 3.2,
+    "acceptanceRate": 0.42,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Mathematics",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 0,
+    "livingCostUSD": 12000,
+    "applicationFeeUSD": 0,
+    "ranking": 340,
+    "website": "https://www.tu-darmstadt.de"
+  },
+  {
+    "id": "u102",
+    "name": "TU Dresden",
+    "country": "Germany",
+    "city": "Dresden",
+    "region": "Europe",
+    "minGPA": 3.15,
+    "acceptanceRate": 0.44,
+    "fields": [
+      "Engineering",
+      "Natural Sciences",
+      "Computer Science",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 0,
+    "livingCostUSD": 10500,
+    "applicationFeeUSD": 0,
+    "ranking": 190,
+    "website": "https://tu-dresden.de"
+  },
+  {
+    "id": "u103",
+    "name": "Leibniz University Hannover",
+    "country": "Germany",
+    "city": "Hannover",
+    "region": "Europe",
+    "minGPA": 2.95,
+    "acceptanceRate": 0.55,
+    "fields": [
+      "Engineering",
+      "Natural Sciences",
+      "Law",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 0,
+    "livingCostUSD": 11000,
+    "applicationFeeUSD": 0,
+    "ranking": 601,
+    "website": "https://www.uni-hannover.de"
+  },
+  {
+    "id": "u104",
+    "name": "TU Braunschweig",
+    "country": "Germany",
+    "city": "Braunschweig",
+    "region": "Europe",
+    "minGPA": 2.8,
+    "acceptanceRate": 0.6,
+    "fields": [
+      "Engineering",
+      "Natural Sciences",
+      "Computer Science"
+    ],
+    "tuitionIntlUSD": 0,
+    "livingCostUSD": 10500,
+    "applicationFeeUSD": 0,
+    "ranking": 9999,
+    "website": "https://www.tu-braunschweig.de"
+  },
+  {
+    "id": "u105",
+    "name": "University of Stuttgart",
+    "country": "Germany",
+    "city": "Stuttgart",
+    "region": "Europe",
+    "minGPA": 3.3,
+    "acceptanceRate": 0.38,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Architecture",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 1500,
+    "livingCostUSD": 12500,
+    "applicationFeeUSD": 60,
+    "ranking": 350,
+    "website": "https://www.uni-stuttgart.de"
+  },
+  {
+    "id": "u106",
+    "name": "Karlsruhe Institute of Technology",
+    "country": "Germany",
+    "city": "Karlsruhe",
+    "region": "Europe",
+    "minGPA": 3.45,
+    "acceptanceRate": 0.32,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Natural Sciences",
+      "Mathematics"
+    ],
+    "tuitionIntlUSD": 1500,
+    "livingCostUSD": 12000,
+    "applicationFeeUSD": 60,
+    "ranking": 120,
+    "website": "https://www.kit.edu"
+  },
+  {
+    "id": "u107",
+    "name": "University of Freiburg",
+    "country": "Germany",
+    "city": "Freiburg",
+    "region": "Europe",
+    "minGPA": 3.35,
+    "acceptanceRate": 0.34,
+    "fields": [
+      "Natural Sciences",
+      "Medicine",
+      "Social Sciences",
+      "Law"
+    ],
+    "tuitionIntlUSD": 0,
+    "livingCostUSD": 12500,
+    "applicationFeeUSD": 75,
+    "ranking": 180,
+    "website": "https://www.uni-freiburg.de"
+  },
+  {
+    "id": "u108",
+    "name": "University of Bonn",
+    "country": "Germany",
+    "city": "Bonn",
+    "region": "Europe",
+    "minGPA": 3.3,
+    "acceptanceRate": 0.36,
+    "fields": [
+      "Natural Sciences",
+      "Economics",
+      "Law",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 0,
+    "livingCostUSD": 11500,
+    "applicationFeeUSD": 75,
+    "ranking": 210,
+    "website": "https://www.uni-bonn.de"
+  },
+  {
+    "id": "u109",
+    "name": "University of Göttingen",
+    "country": "Germany",
+    "city": "Göttingen",
+    "region": "Europe",
+    "minGPA": 3.1,
+    "acceptanceRate": 0.46,
+    "fields": [
+      "Natural Sciences",
+      "Social Sciences",
+      "Law",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 0,
+    "livingCostUSD": 10500,
+    "applicationFeeUSD": 75,
+    "ranking": 250,
+    "website": "https://www.uni-goettingen.de"
+  },
+  {
+    "id": "u110",
+    "name": "Humboldt University of Berlin",
+    "country": "Germany",
+    "city": "Berlin",
+    "region": "Europe",
+    "minGPA": 3.4,
+    "acceptanceRate": 0.33,
+    "fields": [
+      "Social Sciences",
+      "Law",
+      "Natural Sciences",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 0,
+    "livingCostUSD": 14000,
+    "applicationFeeUSD": 75,
+    "ranking": 128,
+    "website": "https://www.hu-berlin.de"
+  },
+  {
+    "id": "u111",
+    "name": "Université Paris-Saclay",
+    "country": "France",
+    "city": "Gif-sur-Yvette",
+    "region": "Europe",
+    "minGPA": 3.45,
+    "acceptanceRate": 0.32,
+    "fields": [
+      "Natural Sciences",
+      "Engineering",
+      "Mathematics",
+      "Computer Science"
+    ],
+    "tuitionIntlUSD": 3900,
+    "livingCostUSD": 15000,
+    "applicationFeeUSD": 100,
+    "ranking": 72,
+    "website": "https://www.universite-paris-saclay.fr"
+  },
+  {
+    "id": "u112",
+    "name": "Université PSL",
+    "country": "France",
+    "city": "Paris",
+    "region": "Europe",
+    "minGPA": 3.65,
+    "acceptanceRate": 0.2,
+    "fields": [
+      "Natural Sciences",
+      "Arts & Design",
+      "Social Sciences",
+      "Economics"
+    ],
+    "tuitionIntlUSD": 4500,
+    "livingCostUSD": 16000,
+    "applicationFeeUSD": 100,
+    "ranking": 44,
+    "website": "https://psl.eu"
+  },
+  {
+    "id": "u113",
+    "name": "École Normale Supérieure",
+    "country": "France",
+    "city": "Paris",
+    "region": "Europe",
+    "minGPA": 3.85,
+    "acceptanceRate": 0.08,
+    "fields": [
+      "Natural Sciences",
+      "Mathematics",
+      "Social Sciences",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 3000,
+    "livingCostUSD": 16000,
+    "applicationFeeUSD": 100,
+    "ranking": 32,
+    "website": "https://www.ens.psl.eu"
+  },
+  {
+    "id": "u114",
+    "name": "CentraleSupélec",
+    "country": "France",
+    "city": "Gif-sur-Yvette",
+    "region": "Europe",
+    "minGPA": 3.55,
+    "acceptanceRate": 0.22,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Mathematics",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 14000,
+    "livingCostUSD": 15500,
+    "applicationFeeUSD": 120,
+    "ranking": 145,
+    "website": "https://www.centralesupelec.fr"
+  },
+  {
+    "id": "u115",
+    "name": "Université Grenoble Alpes",
+    "country": "France",
+    "city": "Grenoble",
+    "region": "Europe",
+    "minGPA": 3.05,
+    "acceptanceRate": 0.48,
+    "fields": [
+      "Engineering",
+      "Natural Sciences",
+      "Social Sciences",
+      "Economics"
+    ],
+    "tuitionIntlUSD": 3800,
+    "livingCostUSD": 12000,
+    "applicationFeeUSD": 100,
+    "ranking": 270,
+    "website": "https://www.univ-grenoble-alpes.fr"
+  },
+  {
+    "id": "u116",
+    "name": "Aix-Marseille University",
+    "country": "France",
+    "city": "Marseille",
+    "region": "Europe",
+    "minGPA": 2.85,
+    "acceptanceRate": 0.58,
+    "fields": [
+      "Natural Sciences",
+      "Social Sciences",
+      "Medicine",
+      "Law"
+    ],
+    "tuitionIntlUSD": 3800,
+    "livingCostUSD": 11500,
+    "applicationFeeUSD": 100,
+    "ranking": 220,
+    "website": "https://www.univ-amu.fr"
+  },
+  {
+    "id": "u117",
+    "name": "University of Strasbourg",
+    "country": "France",
+    "city": "Strasbourg",
+    "region": "Europe",
+    "minGPA": 2.9,
+    "acceptanceRate": 0.55,
+    "fields": [
+      "Natural Sciences",
+      "Law",
+      "Social Sciences",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 3800,
+    "livingCostUSD": 11500,
+    "applicationFeeUSD": 100,
+    "ranking": 290,
+    "website": "https://www.unistra.fr"
+  },
+  {
+    "id": "u118",
+    "name": "Claude Bernard University Lyon 1",
+    "country": "France",
+    "city": "Lyon",
+    "region": "Europe",
+    "minGPA": 2.8,
+    "acceptanceRate": 0.6,
+    "fields": [
+      "Natural Sciences",
+      "Medicine",
+      "Engineering",
+      "Mathematics"
+    ],
+    "tuitionIntlUSD": 3800,
+    "livingCostUSD": 12000,
+    "applicationFeeUSD": 100,
+    "ranking": 340,
+    "website": "https://www.univ-lyon1.fr"
+  },
+  {
+    "id": "u119",
+    "name": "Toulouse III Paul Sabatier University",
+    "country": "France",
+    "city": "Toulouse",
+    "region": "Europe",
+    "minGPA": 2.7,
+    "acceptanceRate": 0.65,
+    "fields": [
+      "Natural Sciences",
+      "Engineering",
+      "Medicine",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 3800,
+    "livingCostUSD": 11000,
+    "applicationFeeUSD": 100,
+    "ranking": 9999,
+    "website": "https://www.univ-tlse3.fr"
+  },
+  {
+    "id": "u120",
+    "name": "Leiden University",
+    "country": "Netherlands",
+    "city": "Leiden",
+    "region": "Europe",
+    "minGPA": 3.3,
+    "acceptanceRate": 0.38,
+    "fields": [
+      "Law",
+      "Social Sciences",
+      "Natural Sciences",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 16000,
+    "livingCostUSD": 13500,
+    "applicationFeeUSD": 110,
+    "ranking": 73,
+    "website": "https://www.universiteitleiden.nl"
+  },
+  {
+    "id": "u121",
+    "name": "Erasmus University Rotterdam",
+    "country": "Netherlands",
+    "city": "Rotterdam",
+    "region": "Europe",
+    "minGPA": 3.35,
+    "acceptanceRate": 0.35,
+    "fields": [
+      "Business",
+      "Economics",
+      "Law",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 17000,
+    "livingCostUSD": 14000,
+    "applicationFeeUSD": 110,
+    "ranking": 168,
+    "website": "https://www.eur.nl"
+  },
+  {
+    "id": "u122",
+    "name": "Eindhoven University of Technology",
+    "country": "Netherlands",
+    "city": "Eindhoven",
+    "region": "Europe",
+    "minGPA": 3.4,
+    "acceptanceRate": 0.34,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Mathematics",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 17500,
+    "livingCostUSD": 13000,
+    "applicationFeeUSD": 110,
+    "ranking": 115,
+    "website": "https://www.tue.nl"
+  },
+  {
+    "id": "u123",
+    "name": "Wageningen University",
+    "country": "Netherlands",
+    "city": "Wageningen",
+    "region": "Europe",
+    "minGPA": 3.25,
+    "acceptanceRate": 0.4,
+    "fields": [
+      "Natural Sciences",
+      "Economics",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 17000,
+    "livingCostUSD": 12500,
+    "applicationFeeUSD": 110,
+    "ranking": 125,
+    "website": "https://www.wur.nl"
+  },
+  {
+    "id": "u124",
+    "name": "University of Groningen",
+    "country": "Netherlands",
+    "city": "Groningen",
+    "region": "Europe",
+    "minGPA": 3.1,
+    "acceptanceRate": 0.46,
+    "fields": [
+      "Natural Sciences",
+      "Social Sciences",
+      "Law",
+      "Economics"
+    ],
+    "tuitionIntlUSD": 15000,
+    "livingCostUSD": 12000,
+    "applicationFeeUSD": 110,
+    "ranking": 145,
+    "website": "https://www.rug.nl"
+  },
+  {
+    "id": "u125",
+    "name": "Maastricht University",
+    "country": "Netherlands",
+    "city": "Maastricht",
+    "region": "Europe",
+    "minGPA": 2.95,
+    "acceptanceRate": 0.52,
+    "fields": [
+      "Business",
+      "Law",
+      "Social Sciences",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 15500,
+    "livingCostUSD": 13000,
+    "applicationFeeUSD": 110,
+    "ranking": 247,
+    "website": "https://www.maastrichtuniversity.nl"
+  },
+  {
+    "id": "u126",
+    "name": "Vrije Universiteit Amsterdam",
+    "country": "Netherlands",
+    "city": "Amsterdam",
+    "region": "Europe",
+    "minGPA": 2.85,
+    "acceptanceRate": 0.56,
+    "fields": [
+      "Social Sciences",
+      "Economics",
+      "Natural Sciences",
+      "Law"
+    ],
+    "tuitionIntlUSD": 16500,
+    "livingCostUSD": 16000,
+    "applicationFeeUSD": 110,
+    "ranking": 255,
+    "website": "https://vu.nl"
+  },
+  {
+    "id": "u127",
+    "name": "Universidad Complutense de Madrid",
+    "country": "Spain",
+    "city": "Madrid",
+    "region": "Europe",
+    "minGPA": 2.9,
+    "acceptanceRate": 0.55,
+    "fields": [
+      "Law",
+      "Medicine",
+      "Social Sciences",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 7000,
+    "livingCostUSD": 13000,
+    "applicationFeeUSD": 80,
+    "ranking": 225,
+    "website": "https://www.ucm.es"
+  },
+  {
+    "id": "u128",
+    "name": "Universidad Autónoma de Madrid",
+    "country": "Spain",
+    "city": "Madrid",
+    "region": "Europe",
+    "minGPA": 2.95,
+    "acceptanceRate": 0.52,
+    "fields": [
+      "Natural Sciences",
+      "Social Sciences",
+      "Law",
+      "Economics"
+    ],
+    "tuitionIntlUSD": 7000,
+    "livingCostUSD": 13000,
+    "applicationFeeUSD": 80,
+    "ranking": 240,
+    "website": "https://www.uam.es"
+  },
+  {
+    "id": "u129",
+    "name": "Universitat de Barcelona",
+    "country": "Spain",
+    "city": "Barcelona",
+    "region": "Europe",
+    "minGPA": 3,
+    "acceptanceRate": 0.5,
+    "fields": [
+      "Medicine",
+      "Natural Sciences",
+      "Social Sciences",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 7500,
+    "livingCostUSD": 14000,
+    "applicationFeeUSD": 80,
+    "ranking": 171,
+    "website": "https://www.ub.edu"
+  },
+  {
+    "id": "u130",
+    "name": "Universitat Autònoma de Barcelona",
+    "country": "Spain",
+    "city": "Barcelona",
+    "region": "Europe",
+    "minGPA": 2.85,
+    "acceptanceRate": 0.56,
+    "fields": [
+      "Social Sciences",
+      "Natural Sciences",
+      "Economics",
+      "Law"
+    ],
+    "tuitionIntlUSD": 7500,
+    "livingCostUSD": 13500,
+    "applicationFeeUSD": 80,
+    "ranking": 201,
+    "website": "https://www.uab.cat"
+  },
+  {
+    "id": "u131",
+    "name": "Universitat Pompeu Fabra",
+    "country": "Spain",
+    "city": "Barcelona",
+    "region": "Europe",
+    "minGPA": 3.15,
+    "acceptanceRate": 0.44,
+    "fields": [
+      "Economics",
+      "Social Sciences",
+      "Law",
+      "Business"
+    ],
+    "tuitionIntlUSD": 8500,
+    "livingCostUSD": 14000,
+    "applicationFeeUSD": 80,
+    "ranking": 178,
+    "website": "https://www.upf.edu"
+  },
+  {
+    "id": "u132",
+    "name": "Universidad Politécnica de Madrid",
+    "country": "Spain",
+    "city": "Madrid",
+    "region": "Europe",
+    "minGPA": 2.8,
+    "acceptanceRate": 0.58,
+    "fields": [
+      "Engineering",
+      "Architecture",
+      "Computer Science",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 7000,
+    "livingCostUSD": 13000,
+    "applicationFeeUSD": 80,
+    "ranking": 9999,
+    "website": "https://www.upm.es"
+  },
+  {
+    "id": "u133",
+    "name": "Universidad de Navarra",
+    "country": "Spain",
+    "city": "Pamplona",
+    "region": "Europe",
+    "minGPA": 3.2,
+    "acceptanceRate": 0.42,
+    "fields": [
+      "Business",
+      "Medicine",
+      "Law",
+      "Economics"
+    ],
+    "tuitionIntlUSD": 19000,
+    "livingCostUSD": 12000,
+    "applicationFeeUSD": 120,
+    "ranking": 340,
+    "website": "https://www.unav.edu"
+  },
+  {
+    "id": "u134",
+    "name": "Universidad Carlos III de Madrid",
+    "country": "Spain",
+    "city": "Madrid",
+    "region": "Europe",
+    "minGPA": 3.05,
+    "acceptanceRate": 0.46,
+    "fields": [
+      "Economics",
+      "Law",
+      "Social Sciences",
+      "Engineering"
+    ],
+    "tuitionIntlUSD": 9000,
+    "livingCostUSD": 13000,
+    "applicationFeeUSD": 80,
+    "ranking": 9999,
+    "website": "https://www.uc3m.es"
+  },
+  {
+    "id": "u135",
+    "name": "Politecnico di Milano",
+    "country": "Italy",
+    "city": "Milan",
+    "region": "Europe",
+    "minGPA": 3.4,
+    "acceptanceRate": 0.32,
+    "fields": [
+      "Engineering",
+      "Architecture",
+      "Computer Science",
+      "Mathematics"
+    ],
+    "tuitionIntlUSD": 4000,
+    "livingCostUSD": 15000,
+    "applicationFeeUSD": 80,
+    "ranking": 123,
+    "website": "https://www.polimi.it"
+  },
+  {
+    "id": "u136",
+    "name": "Sapienza University of Rome",
+    "country": "Italy",
+    "city": "Rome",
+    "region": "Europe",
+    "minGPA": 2.9,
+    "acceptanceRate": 0.55,
+    "fields": [
+      "Law",
+      "Medicine",
+      "Social Sciences",
+      "Engineering"
+    ],
+    "tuitionIntlUSD": 2500,
+    "livingCostUSD": 13000,
+    "applicationFeeUSD": 50,
+    "ranking": 171,
+    "website": "https://www.uniroma1.it"
+  },
+  {
+    "id": "u137",
+    "name": "University of Bologna",
+    "country": "Italy",
+    "city": "Bologna",
+    "region": "Europe",
+    "minGPA": 3.1,
+    "acceptanceRate": 0.46,
+    "fields": [
+      "Law",
+      "Social Sciences",
+      "Economics",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 2800,
+    "livingCostUSD": 12500,
+    "applicationFeeUSD": 50,
+    "ranking": 167,
+    "website": "https://www.unibo.it"
+  },
+  {
+    "id": "u138",
+    "name": "Politecnico di Torino",
+    "country": "Italy",
+    "city": "Turin",
+    "region": "Europe",
+    "minGPA": 3.3,
+    "acceptanceRate": 0.38,
+    "fields": [
+      "Engineering",
+      "Architecture",
+      "Computer Science",
+      "Mathematics"
+    ],
+    "tuitionIntlUSD": 3800,
+    "livingCostUSD": 12000,
+    "applicationFeeUSD": 80,
+    "ranking": 187,
+    "website": "https://www.polito.it"
+  },
+  {
+    "id": "u139",
+    "name": "University of Padua",
+    "country": "Italy",
+    "city": "Padua",
+    "region": "Europe",
+    "minGPA": 2.85,
+    "acceptanceRate": 0.56,
+    "fields": [
+      "Natural Sciences",
+      "Medicine",
+      "Law",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 2600,
+    "livingCostUSD": 11500,
+    "applicationFeeUSD": 50,
+    "ranking": 242,
+    "website": "https://www.unipd.it"
+  },
+  {
+    "id": "u140",
+    "name": "University of Pisa",
+    "country": "Italy",
+    "city": "Pisa",
+    "region": "Europe",
+    "minGPA": 2.95,
+    "acceptanceRate": 0.52,
+    "fields": [
+      "Natural Sciences",
+      "Engineering",
+      "Medicine",
+      "Mathematics"
+    ],
+    "tuitionIntlUSD": 2400,
+    "livingCostUSD": 11000,
+    "applicationFeeUSD": 50,
+    "ranking": 340,
+    "website": "https://www.unipi.it"
+  },
+  {
+    "id": "u141",
+    "name": "University of Milan",
+    "country": "Italy",
+    "city": "Milan",
+    "region": "Europe",
+    "minGPA": 2.8,
+    "acceptanceRate": 0.58,
+    "fields": [
+      "Natural Sciences",
+      "Medicine",
+      "Law",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 2800,
+    "livingCostUSD": 15000,
+    "applicationFeeUSD": 50,
+    "ranking": 301,
+    "website": "https://www.unimi.it"
+  },
+  {
+    "id": "u142",
+    "name": "Scuola Normale Superiore di Pisa",
+    "country": "Italy",
+    "city": "Pisa",
+    "region": "Europe",
+    "minGPA": 3.85,
+    "acceptanceRate": 0.06,
+    "fields": [
+      "Natural Sciences",
+      "Mathematics",
+      "Social Sciences",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 0,
+    "livingCostUSD": 11000,
+    "applicationFeeUSD": 0,
+    "ranking": 9999,
+    "website": "https://www.sns.it"
+  },
+  {
+    "id": "u143",
+    "name": "University of Oslo",
+    "country": "Norway",
+    "city": "Oslo",
+    "region": "Europe",
+    "minGPA": 3.1,
+    "acceptanceRate": 0.46,
+    "fields": [
+      "Law",
+      "Social Sciences",
+      "Natural Sciences",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 0,
+    "livingCostUSD": 17000,
+    "applicationFeeUSD": 0,
+    "ranking": 113,
+    "website": "https://www.uio.no"
+  },
+  {
+    "id": "u144",
+    "name": "Norwegian University of Science and Technology",
+    "country": "Norway",
+    "city": "Trondheim",
+    "region": "Europe",
+    "minGPA": 3,
+    "acceptanceRate": 0.5,
+    "fields": [
+      "Engineering",
+      "Natural Sciences",
+      "Computer Science",
+      "Architecture"
+    ],
+    "tuitionIntlUSD": 0,
+    "livingCostUSD": 14000,
+    "applicationFeeUSD": 0,
+    "ranking": 351,
+    "website": "https://www.ntnu.edu"
+  },
+  {
+    "id": "u145",
+    "name": "University of Helsinki",
+    "country": "Finland",
+    "city": "Helsinki",
+    "region": "Europe",
+    "minGPA": 3.2,
+    "acceptanceRate": 0.42,
+    "fields": [
+      "Natural Sciences",
+      "Social Sciences",
+      "Law",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 13000,
+    "livingCostUSD": 13500,
+    "applicationFeeUSD": 100,
+    "ranking": 116,
+    "website": "https://www.helsinki.fi"
+  },
+  {
+    "id": "u146",
+    "name": "Aalto University",
+    "country": "Finland",
+    "city": "Espoo",
+    "region": "Europe",
+    "minGPA": 3.35,
+    "acceptanceRate": 0.35,
+    "fields": [
+      "Engineering",
+      "Business",
+      "Arts & Design",
+      "Computer Science"
+    ],
+    "tuitionIntlUSD": 15000,
+    "livingCostUSD": 13000,
+    "applicationFeeUSD": 100,
+    "ranking": 120,
+    "website": "https://www.aalto.fi"
+  },
+  {
+    "id": "u147",
+    "name": "University of Iceland",
+    "country": "Iceland",
+    "city": "Reykjavik",
+    "region": "Europe",
+    "minGPA": 2.75,
+    "acceptanceRate": 0.62,
+    "fields": [
+      "Natural Sciences",
+      "Social Sciences",
+      "Law",
+      "Engineering"
+    ],
+    "tuitionIntlUSD": 0,
+    "livingCostUSD": 15000,
+    "applicationFeeUSD": 50,
+    "ranking": 9999,
+    "website": "https://english.hi.is"
+  },
+  {
+    "id": "u148",
+    "name": "Lund University",
+    "country": "Sweden",
+    "city": "Lund",
+    "region": "Europe",
+    "minGPA": 3.3,
+    "acceptanceRate": 0.38,
+    "fields": [
+      "Engineering",
+      "Social Sciences",
+      "Natural Sciences",
+      "Economics"
+    ],
+    "tuitionIntlUSD": 17000,
+    "livingCostUSD": 13000,
+    "applicationFeeUSD": 100,
+    "ranking": 86,
+    "website": "https://www.lunduniversity.lu.se"
+  },
+  {
+    "id": "u149",
+    "name": "Uppsala University",
+    "country": "Sweden",
+    "city": "Uppsala",
+    "region": "Europe",
+    "minGPA": 3.15,
+    "acceptanceRate": 0.44,
+    "fields": [
+      "Natural Sciences",
+      "Social Sciences",
+      "Medicine",
+      "Law"
+    ],
+    "tuitionIntlUSD": 16000,
+    "livingCostUSD": 12500,
+    "applicationFeeUSD": 100,
+    "ranking": 111,
+    "website": "https://www.uu.se"
+  },
+  {
+    "id": "u150",
+    "name": "Aarhus University",
+    "country": "Denmark",
+    "city": "Aarhus",
+    "region": "Europe",
+    "minGPA": 3.05,
+    "acceptanceRate": 0.47,
+    "fields": [
+      "Natural Sciences",
+      "Social Sciences",
+      "Economics",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 15500,
+    "livingCostUSD": 13000,
+    "applicationFeeUSD": 100,
+    "ranking": 150,
+    "website": "https://international.au.dk"
+  },
+  {
+    "id": "u151",
+    "name": "Technical University of Denmark",
+    "country": "Denmark",
+    "city": "Kongens Lyngby",
+    "region": "Europe",
+    "minGPA": 3.4,
+    "acceptanceRate": 0.32,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Natural Sciences",
+      "Mathematics"
+    ],
+    "tuitionIntlUSD": 17000,
+    "livingCostUSD": 14000,
+    "applicationFeeUSD": 100,
+    "ranking": 101,
+    "website": "https://www.dtu.dk"
+  },
+  {
+    "id": "u152",
+    "name": "University of Warsaw",
+    "country": "Poland",
+    "city": "Warsaw",
+    "region": "Europe",
+    "minGPA": 2.9,
+    "acceptanceRate": 0.55,
+    "fields": [
+      "Social Sciences",
+      "Law",
+      "Natural Sciences",
+      "Economics"
+    ],
+    "tuitionIntlUSD": 4000,
+    "livingCostUSD": 9000,
+    "applicationFeeUSD": 60,
+    "ranking": 262,
+    "website": "https://www.uw.edu.pl"
+  },
+  {
+    "id": "u153",
+    "name": "Jagiellonian University",
+    "country": "Poland",
+    "city": "Krakow",
+    "region": "Europe",
+    "minGPA": 2.95,
+    "acceptanceRate": 0.52,
+    "fields": [
+      "Natural Sciences",
+      "Medicine",
+      "Social Sciences",
+      "Law"
+    ],
+    "tuitionIntlUSD": 4500,
+    "livingCostUSD": 8500,
+    "applicationFeeUSD": 60,
+    "ranking": 286,
+    "website": "https://en.uj.edu.pl"
+  },
+  {
+    "id": "u154",
+    "name": "Warsaw University of Technology",
+    "country": "Poland",
+    "city": "Warsaw",
+    "region": "Europe",
+    "minGPA": 2.85,
+    "acceptanceRate": 0.56,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Architecture",
+      "Mathematics"
+    ],
+    "tuitionIntlUSD": 4000,
+    "livingCostUSD": 9000,
+    "applicationFeeUSD": 60,
+    "ranking": 9999,
+    "website": "https://www.pw.edu.pl"
+  },
+  {
+    "id": "u155",
+    "name": "AGH University of Krakow",
+    "country": "Poland",
+    "city": "Krakow",
+    "region": "Europe",
+    "minGPA": 2.75,
+    "acceptanceRate": 0.6,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 4000,
+    "livingCostUSD": 8500,
+    "applicationFeeUSD": 60,
+    "ranking": 9999,
+    "website": "https://www.agh.edu.pl"
+  },
+  {
+    "id": "u156",
+    "name": "Adam Mickiewicz University",
+    "country": "Poland",
+    "city": "Poznan",
+    "region": "Europe",
+    "minGPA": 2.6,
+    "acceptanceRate": 0.66,
+    "fields": [
+      "Social Sciences",
+      "Natural Sciences",
+      "Arts & Design",
+      "Law"
+    ],
+    "tuitionIntlUSD": 3500,
+    "livingCostUSD": 8000,
+    "applicationFeeUSD": 50,
+    "ranking": 9999,
+    "website": "https://amu.edu.pl"
+  },
+  {
+    "id": "u157",
+    "name": "Charles University",
+    "country": "Czechia",
+    "city": "Prague",
+    "region": "Europe",
+    "minGPA": 3,
+    "acceptanceRate": 0.5,
+    "fields": [
+      "Medicine",
+      "Law",
+      "Social Sciences",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 5000,
+    "livingCostUSD": 10000,
+    "applicationFeeUSD": 70,
+    "ranking": 244,
+    "website": "https://cuni.cz"
+  },
+  {
+    "id": "u158",
+    "name": "Czech Technical University in Prague",
+    "country": "Czechia",
+    "city": "Prague",
+    "region": "Europe",
+    "minGPA": 2.9,
+    "acceptanceRate": 0.55,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Architecture",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 5000,
+    "livingCostUSD": 10000,
+    "applicationFeeUSD": 70,
+    "ranking": 9999,
+    "website": "https://www.cvut.cz"
+  },
+  {
+    "id": "u159",
+    "name": "Masaryk University",
+    "country": "Czechia",
+    "city": "Brno",
+    "region": "Europe",
+    "minGPA": 2.7,
+    "acceptanceRate": 0.62,
+    "fields": [
+      "Social Sciences",
+      "Natural Sciences",
+      "Law",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 4500,
+    "livingCostUSD": 9000,
+    "applicationFeeUSD": 60,
+    "ranking": 601,
+    "website": "https://www.muni.cz"
+  },
+  {
+    "id": "u160",
+    "name": "Brno University of Technology",
+    "country": "Czechia",
+    "city": "Brno",
+    "region": "Europe",
+    "minGPA": 2.55,
+    "acceptanceRate": 0.68,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Architecture"
+    ],
+    "tuitionIntlUSD": 4500,
+    "livingCostUSD": 9000,
+    "applicationFeeUSD": 60,
+    "ranking": 9999,
+    "website": "https://www.vut.cz"
+  },
+  {
+    "id": "u161",
+    "name": "University of Lisbon",
+    "country": "Portugal",
+    "city": "Lisbon",
+    "region": "Europe",
+    "minGPA": 2.85,
+    "acceptanceRate": 0.56,
+    "fields": [
+      "Natural Sciences",
+      "Law",
+      "Social Sciences",
+      "Engineering"
+    ],
+    "tuitionIntlUSD": 7000,
+    "livingCostUSD": 11000,
+    "applicationFeeUSD": 70,
+    "ranking": 347,
+    "website": "https://www.ulisboa.pt"
+  },
+  {
+    "id": "u162",
+    "name": "University of Porto",
+    "country": "Portugal",
+    "city": "Porto",
+    "region": "Europe",
+    "minGPA": 2.9,
+    "acceptanceRate": 0.54,
+    "fields": [
+      "Engineering",
+      "Natural Sciences",
+      "Medicine",
+      "Economics"
+    ],
+    "tuitionIntlUSD": 7000,
+    "livingCostUSD": 10500,
+    "applicationFeeUSD": 70,
+    "ranking": 323,
+    "website": "https://www.up.pt"
+  },
+  {
+    "id": "u163",
+    "name": "NOVA University Lisbon",
+    "country": "Portugal",
+    "city": "Lisbon",
+    "region": "Europe",
+    "minGPA": 2.95,
+    "acceptanceRate": 0.52,
+    "fields": [
+      "Business",
+      "Economics",
+      "Social Sciences",
+      "Law"
+    ],
+    "tuitionIntlUSD": 7500,
+    "livingCostUSD": 11000,
+    "applicationFeeUSD": 70,
+    "ranking": 401,
+    "website": "https://www.unl.pt"
+  },
+  {
+    "id": "u164",
+    "name": "University of Coimbra",
+    "country": "Portugal",
+    "city": "Coimbra",
+    "region": "Europe",
+    "minGPA": 2.65,
+    "acceptanceRate": 0.64,
+    "fields": [
+      "Law",
+      "Natural Sciences",
+      "Social Sciences",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 6500,
+    "livingCostUSD": 9500,
+    "applicationFeeUSD": 60,
+    "ranking": 9999,
+    "website": "https://www.uc.pt"
+  },
+  {
+    "id": "u165",
+    "name": "University of Aveiro",
+    "country": "Portugal",
+    "city": "Aveiro",
+    "region": "Europe",
+    "minGPA": 2.5,
+    "acceptanceRate": 0.7,
+    "fields": [
+      "Engineering",
+      "Natural Sciences",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 6000,
+    "livingCostUSD": 9000,
+    "applicationFeeUSD": 50,
+    "ranking": 9999,
+    "website": "https://www.ua.pt"
+  },
+  {
+    "id": "u166",
+    "name": "University College Dublin",
+    "country": "Ireland",
+    "city": "Dublin",
+    "region": "Europe",
+    "minGPA": 3.1,
+    "acceptanceRate": 0.45,
+    "fields": [
+      "Business",
+      "Law",
+      "Engineering",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 24000,
+    "livingCostUSD": 14000,
+    "applicationFeeUSD": 55,
+    "ranking": 171,
+    "website": "https://www.ucd.ie"
+  },
+  {
+    "id": "u167",
+    "name": "University College Cork",
+    "country": "Ireland",
+    "city": "Cork",
+    "region": "Europe",
+    "minGPA": 2.85,
+    "acceptanceRate": 0.56,
+    "fields": [
+      "Natural Sciences",
+      "Business",
+      "Medicine",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 21000,
+    "livingCostUSD": 12000,
+    "applicationFeeUSD": 55,
+    "ranking": 308,
+    "website": "https://www.ucc.ie"
+  },
+  {
+    "id": "u168",
+    "name": "National University of Ireland Galway",
+    "country": "Ireland",
+    "city": "Galway",
+    "region": "Europe",
+    "minGPA": 2.75,
+    "acceptanceRate": 0.6,
+    "fields": [
+      "Natural Sciences",
+      "Social Sciences",
+      "Law",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 20000,
+    "livingCostUSD": 11500,
+    "applicationFeeUSD": 55,
+    "ranking": 9999,
+    "website": "https://www.universityofgalway.ie"
+  },
+  {
+    "id": "u169",
+    "name": "Dublin City University",
+    "country": "Ireland",
+    "city": "Dublin",
+    "region": "Europe",
+    "minGPA": 2.7,
+    "acceptanceRate": 0.62,
+    "fields": [
+      "Business",
+      "Computer Science",
+      "Social Sciences",
+      "Engineering"
+    ],
+    "tuitionIntlUSD": 19000,
+    "livingCostUSD": 13500,
+    "applicationFeeUSD": 55,
+    "ranking": 9999,
+    "website": "https://www.dcu.ie"
+  },
+  {
+    "id": "u170",
+    "name": "University of Limerick",
+    "country": "Ireland",
+    "city": "Limerick",
+    "region": "Europe",
+    "minGPA": 2.55,
+    "acceptanceRate": 0.68,
+    "fields": [
+      "Business",
+      "Engineering",
+      "Education",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 18000,
+    "livingCostUSD": 11000,
+    "applicationFeeUSD": 55,
+    "ranking": 9999,
+    "website": "https://www.ul.ie"
+  },
+  {
+    "id": "u171",
+    "name": "University of Zurich",
+    "country": "Switzerland",
+    "city": "Zurich",
+    "region": "Europe",
+    "minGPA": 3.35,
+    "acceptanceRate": 0.35,
+    "fields": [
+      "Law",
+      "Medicine",
+      "Natural Sciences",
+      "Social Sciences",
+      "Economics"
+    ],
+    "tuitionIntlUSD": 1800,
+    "livingCostUSD": 20000,
+    "applicationFeeUSD": 150,
+    "ranking": 80,
+    "website": "https://www.uzh.ch"
+  },
+  {
+    "id": "u172",
+    "name": "University of Geneva",
+    "country": "Switzerland",
+    "city": "Geneva",
+    "region": "Europe",
+    "minGPA": 3.2,
+    "acceptanceRate": 0.42,
+    "fields": [
+      "Natural Sciences",
+      "Social Sciences",
+      "Medicine",
+      "Economics"
+    ],
+    "tuitionIntlUSD": 1800,
+    "livingCostUSD": 19000,
+    "applicationFeeUSD": 150,
+    "ranking": 110,
+    "website": "https://www.unige.ch"
+  },
+  {
+    "id": "u173",
+    "name": "University of Basel",
+    "country": "Switzerland",
+    "city": "Basel",
+    "region": "Europe",
+    "minGPA": 3.15,
+    "acceptanceRate": 0.44,
+    "fields": [
+      "Natural Sciences",
+      "Medicine",
+      "Social Sciences",
+      "Law"
+    ],
+    "tuitionIntlUSD": 2000,
+    "livingCostUSD": 19500,
+    "applicationFeeUSD": 150,
+    "ranking": 130,
+    "website": "https://www.unibas.ch"
+  },
+  {
+    "id": "u174",
+    "name": "University of Bern",
+    "country": "Switzerland",
+    "city": "Bern",
+    "region": "Europe",
+    "minGPA": 3,
+    "acceptanceRate": 0.48,
+    "fields": [
+      "Natural Sciences",
+      "Medicine",
+      "Law",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 2000,
+    "livingCostUSD": 17500,
+    "applicationFeeUSD": 150,
+    "ranking": 130,
+    "website": "https://www.unibe.ch"
+  },
+  {
+    "id": "u175",
+    "name": "University of Lausanne",
+    "country": "Switzerland",
+    "city": "Lausanne",
+    "region": "Europe",
+    "minGPA": 3.1,
+    "acceptanceRate": 0.45,
+    "fields": [
+      "Social Sciences",
+      "Natural Sciences",
+      "Law",
+      "Economics"
+    ],
+    "tuitionIntlUSD": 1800,
+    "livingCostUSD": 19000,
+    "applicationFeeUSD": 150,
+    "ranking": 190,
+    "website": "https://www.unil.ch"
+  },
+  {
+    "id": "u176",
+    "name": "University of St. Gallen",
+    "country": "Switzerland",
+    "city": "St. Gallen",
+    "region": "Europe",
+    "minGPA": 3.5,
+    "acceptanceRate": 0.24,
+    "fields": [
+      "Business",
+      "Economics",
+      "Law",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 2500,
+    "livingCostUSD": 19000,
+    "applicationFeeUSD": 150,
+    "ranking": 435,
+    "website": "https://www.unisg.ch"
+  },
+  {
+    "id": "u177",
+    "name": "University of Vienna",
+    "country": "Austria",
+    "city": "Vienna",
+    "region": "Europe",
+    "minGPA": 2.95,
+    "acceptanceRate": 0.52,
+    "fields": [
+      "Law",
+      "Natural Sciences",
+      "Social Sciences",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 1700,
+    "livingCostUSD": 13000,
+    "applicationFeeUSD": 80,
+    "ranking": 146,
+    "website": "https://www.univie.ac.at"
+  },
+  {
+    "id": "u178",
+    "name": "TU Wien",
+    "country": "Austria",
+    "city": "Vienna",
+    "region": "Europe",
+    "minGPA": 3.2,
+    "acceptanceRate": 0.42,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Architecture",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 1700,
+    "livingCostUSD": 13000,
+    "applicationFeeUSD": 80,
+    "ranking": 213,
+    "website": "https://www.tuwien.at"
+  },
+  {
+    "id": "u179",
+    "name": "University of Innsbruck",
+    "country": "Austria",
+    "city": "Innsbruck",
+    "region": "Europe",
+    "minGPA": 2.7,
+    "acceptanceRate": 0.6,
+    "fields": [
+      "Natural Sciences",
+      "Social Sciences",
+      "Law",
+      "Economics"
+    ],
+    "tuitionIntlUSD": 1500,
+    "livingCostUSD": 12000,
+    "applicationFeeUSD": 70,
+    "ranking": 9999,
+    "website": "https://www.uibk.ac.at"
+  },
+  {
+    "id": "u180",
+    "name": "Graz University of Technology",
+    "country": "Austria",
+    "city": "Graz",
+    "region": "Europe",
+    "minGPA": 2.85,
+    "acceptanceRate": 0.55,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 1500,
+    "livingCostUSD": 11500,
+    "applicationFeeUSD": 70,
+    "ranking": 9999,
+    "website": "https://www.tugraz.at"
+  },
+  {
+    "id": "u181",
+    "name": "Johannes Kepler University Linz",
+    "country": "Austria",
+    "city": "Linz",
+    "region": "Europe",
+    "minGPA": 2.55,
+    "acceptanceRate": 0.68,
+    "fields": [
+      "Business",
+      "Law",
+      "Natural Sciences",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 1500,
+    "livingCostUSD": 11000,
+    "applicationFeeUSD": 60,
+    "ranking": 9999,
+    "website": "https://www.jku.at"
+  },
+  {
+    "id": "u182",
+    "name": "KU Leuven",
+    "country": "Belgium",
+    "city": "Leuven",
+    "region": "Europe",
+    "minGPA": 3.45,
+    "acceptanceRate": 0.3,
+    "fields": [
+      "Natural Sciences",
+      "Engineering",
+      "Medicine",
+      "Social Sciences",
+      "Law"
+    ],
+    "tuitionIntlUSD": 6500,
+    "livingCostUSD": 13000,
+    "applicationFeeUSD": 100,
+    "ranking": 68,
+    "website": "https://www.kuleuven.be"
+  },
+  {
+    "id": "u183",
+    "name": "Ghent University",
+    "country": "Belgium",
+    "city": "Ghent",
+    "region": "Europe",
+    "minGPA": 3.05,
+    "acceptanceRate": 0.46,
+    "fields": [
+      "Natural Sciences",
+      "Social Sciences",
+      "Medicine",
+      "Law"
+    ],
+    "tuitionIntlUSD": 6000,
+    "livingCostUSD": 12500,
+    "applicationFeeUSD": 100,
+    "ranking": 143,
+    "website": "https://www.ugent.be"
+  },
+  {
+    "id": "u184",
+    "name": "Université catholique de Louvain",
+    "country": "Belgium",
+    "city": "Louvain-la-Neuve",
+    "region": "Europe",
+    "minGPA": 3.1,
+    "acceptanceRate": 0.45,
+    "fields": [
+      "Law",
+      "Social Sciences",
+      "Natural Sciences",
+      "Economics"
+    ],
+    "tuitionIntlUSD": 6500,
+    "livingCostUSD": 12500,
+    "applicationFeeUSD": 100,
+    "ranking": 192,
+    "website": "https://uclouvain.be"
+  },
+  {
+    "id": "u185",
+    "name": "Université libre de Bruxelles",
+    "country": "Belgium",
+    "city": "Brussels",
+    "region": "Europe",
+    "minGPA": 2.85,
+    "acceptanceRate": 0.56,
+    "fields": [
+      "Social Sciences",
+      "Law",
+      "Natural Sciences",
+      "Economics"
+    ],
+    "tuitionIntlUSD": 6000,
+    "livingCostUSD": 14000,
+    "applicationFeeUSD": 100,
+    "ranking": 193,
+    "website": "https://www.ulb.be"
+  },
+  {
+    "id": "u186",
+    "name": "Vrije Universiteit Brussel",
+    "country": "Belgium",
+    "city": "Brussels",
+    "region": "Europe",
+    "minGPA": 2.6,
+    "acceptanceRate": 0.65,
+    "fields": [
+      "Social Sciences",
+      "Natural Sciences",
+      "Law",
+      "Engineering"
+    ],
+    "tuitionIntlUSD": 6000,
+    "livingCostUSD": 13500,
+    "applicationFeeUSD": 100,
+    "ranking": 9999,
+    "website": "https://www.vub.be"
+  },
+  {
+    "id": "u187",
+    "name": "Osaka University",
+    "country": "Japan",
+    "city": "Osaka",
+    "region": "Asia",
+    "minGPA": 3.3,
+    "acceptanceRate": 0.4,
+    "fields": [
+      "Natural Sciences",
+      "Medicine",
+      "Engineering",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 6500,
+    "livingCostUSD": 13000,
+    "applicationFeeUSD": 60,
+    "ranking": 80,
+    "website": "https://www.osaka-u.ac.jp"
+  },
+  {
+    "id": "u188",
+    "name": "Tohoku University",
+    "country": "Japan",
+    "city": "Sendai",
+    "region": "Asia",
+    "minGPA": 3.2,
+    "acceptanceRate": 0.44,
+    "fields": [
+      "Natural Sciences",
+      "Engineering",
+      "Medicine",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 6500,
+    "livingCostUSD": 11000,
+    "applicationFeeUSD": 60,
+    "ranking": 113,
+    "website": "https://www.tohoku.ac.jp"
+  },
+  {
+    "id": "u189",
+    "name": "Nagoya University",
+    "country": "Japan",
+    "city": "Nagoya",
+    "region": "Asia",
+    "minGPA": 3.1,
+    "acceptanceRate": 0.46,
+    "fields": [
+      "Natural Sciences",
+      "Engineering",
+      "Law",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 6500,
+    "livingCostUSD": 12000,
+    "applicationFeeUSD": 60,
+    "ranking": 120,
+    "website": "https://en.nagoya-u.ac.jp"
+  },
+  {
+    "id": "u190",
+    "name": "Kyushu University",
+    "country": "Japan",
+    "city": "Fukuoka",
+    "region": "Asia",
+    "minGPA": 2.95,
+    "acceptanceRate": 0.5,
+    "fields": [
+      "Natural Sciences",
+      "Engineering",
+      "Law",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 6500,
+    "livingCostUSD": 10500,
+    "applicationFeeUSD": 60,
+    "ranking": 164,
+    "website": "https://www.kyushu-u.ac.jp"
+  },
+  {
+    "id": "u191",
+    "name": "Hokkaido University",
+    "country": "Japan",
+    "city": "Sapporo",
+    "region": "Asia",
+    "minGPA": 2.85,
+    "acceptanceRate": 0.54,
+    "fields": [
+      "Natural Sciences",
+      "Engineering",
+      "Social Sciences",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 6500,
+    "livingCostUSD": 10000,
+    "applicationFeeUSD": 60,
+    "ranking": 196,
+    "website": "https://www.global.hokudai.ac.jp"
+  },
+  {
+    "id": "u192",
+    "name": "Keio University",
+    "country": "Japan",
+    "city": "Tokyo",
+    "region": "Asia",
+    "minGPA": 3.35,
+    "acceptanceRate": 0.38,
+    "fields": [
+      "Business",
+      "Law",
+      "Economics",
+      "Medicine",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 14000,
+    "livingCostUSD": 17000,
+    "applicationFeeUSD": 60,
+    "ranking": 201,
+    "website": "https://www.keio.ac.jp"
+  },
+  {
+    "id": "u193",
+    "name": "Institute of Science Tokyo",
+    "country": "Japan",
+    "city": "Tokyo",
+    "region": "Asia",
+    "minGPA": 3.55,
+    "acceptanceRate": 0.28,
+    "fields": [
+      "Engineering",
+      "Natural Sciences",
+      "Computer Science",
+      "Mathematics"
+    ],
+    "tuitionIntlUSD": 7500,
+    "livingCostUSD": 16000,
+    "applicationFeeUSD": 60,
+    "ranking": 91,
+    "website": "https://www.isct.ac.jp"
+  },
+  {
+    "id": "u194",
+    "name": "Korea University",
+    "country": "South Korea",
+    "city": "Seoul",
+    "region": "Asia",
+    "minGPA": 3.3,
+    "acceptanceRate": 0.36,
+    "fields": [
+      "Business",
+      "Law",
+      "Social Sciences",
+      "Engineering"
+    ],
+    "tuitionIntlUSD": 11000,
+    "livingCostUSD": 12000,
+    "applicationFeeUSD": 50,
+    "ranking": 79,
+    "website": "https://www.korea.ac.kr"
+  },
+  {
+    "id": "u195",
+    "name": "Sungkyunkwan University",
+    "country": "South Korea",
+    "city": "Seoul",
+    "region": "Asia",
+    "minGPA": 3.2,
+    "acceptanceRate": 0.4,
+    "fields": [
+      "Business",
+      "Engineering",
+      "Natural Sciences",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 10000,
+    "livingCostUSD": 11500,
+    "applicationFeeUSD": 50,
+    "ranking": 97,
+    "website": "https://www.skku.edu"
+  },
+  {
+    "id": "u196",
+    "name": "Hanyang University",
+    "country": "South Korea",
+    "city": "Seoul",
+    "region": "Asia",
+    "minGPA": 3.05,
+    "acceptanceRate": 0.46,
+    "fields": [
+      "Engineering",
+      "Business",
+      "Architecture",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 9500,
+    "livingCostUSD": 11000,
+    "applicationFeeUSD": 50,
+    "ranking": 144,
+    "website": "https://www.hanyang.ac.kr"
+  },
+  {
+    "id": "u197",
+    "name": "Pohang University of Science and Technology",
+    "country": "South Korea",
+    "city": "Pohang",
+    "region": "Asia",
+    "minGPA": 3.6,
+    "acceptanceRate": 0.2,
+    "fields": [
+      "Engineering",
+      "Natural Sciences",
+      "Computer Science",
+      "Mathematics"
+    ],
+    "tuitionIntlUSD": 9000,
+    "livingCostUSD": 10000,
+    "applicationFeeUSD": 50,
+    "ranking": 71,
+    "website": "https://www.postech.ac.kr"
+  },
+  {
+    "id": "u198",
+    "name": "Ewha Womans University",
+    "country": "South Korea",
+    "city": "Seoul",
+    "region": "Asia",
+    "minGPA": 2.95,
+    "acceptanceRate": 0.5,
+    "fields": [
+      "Social Sciences",
+      "Business",
+      "Education",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 9500,
+    "livingCostUSD": 11000,
+    "applicationFeeUSD": 50,
+    "ranking": 9999,
+    "website": "https://www.ewha.ac.kr"
+  },
+  {
+    "id": "u199",
+    "name": "Kyung Hee University",
+    "country": "South Korea",
+    "city": "Seoul",
+    "region": "Asia",
+    "minGPA": 2.75,
+    "acceptanceRate": 0.58,
+    "fields": [
+      "Business",
+      "Social Sciences",
+      "Medicine",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 9000,
+    "livingCostUSD": 10500,
+    "applicationFeeUSD": 50,
+    "ranking": 9999,
+    "website": "https://www.khu.ac.kr"
+  },
+  {
+    "id": "u200",
+    "name": "Sogang University",
+    "country": "South Korea",
+    "city": "Seoul",
+    "region": "Asia",
+    "minGPA": 2.9,
+    "acceptanceRate": 0.52,
+    "fields": [
+      "Business",
+      "Economics",
+      "Social Sciences",
+      "Computer Science"
+    ],
+    "tuitionIntlUSD": 9500,
+    "livingCostUSD": 11000,
+    "applicationFeeUSD": 50,
+    "ranking": 9999,
+    "website": "https://www.sogang.ac.kr"
+  },
+  {
+    "id": "u201",
+    "name": "Zhejiang University",
+    "country": "China",
+    "city": "Hangzhou",
+    "region": "Asia",
+    "minGPA": 3.55,
+    "acceptanceRate": 0.22,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Natural Sciences",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 5500,
+    "livingCostUSD": 9000,
+    "applicationFeeUSD": 60,
+    "ranking": 44,
+    "website": "https://www.zju.edu.cn"
+  },
+  {
+    "id": "u202",
+    "name": "University of Science and Technology of China",
+    "country": "China",
+    "city": "Hefei",
+    "region": "Asia",
+    "minGPA": 3.65,
+    "acceptanceRate": 0.18,
+    "fields": [
+      "Natural Sciences",
+      "Engineering",
+      "Computer Science",
+      "Mathematics"
+    ],
+    "tuitionIntlUSD": 5000,
+    "livingCostUSD": 8000,
+    "applicationFeeUSD": 60,
+    "ranking": 94,
+    "website": "https://en.ustc.edu.cn"
+  },
+  {
+    "id": "u203",
+    "name": "Nanjing University",
+    "country": "China",
+    "city": "Nanjing",
+    "region": "Asia",
+    "minGPA": 3.4,
+    "acceptanceRate": 0.3,
+    "fields": [
+      "Natural Sciences",
+      "Social Sciences",
+      "Law",
+      "Engineering"
+    ],
+    "tuitionIntlUSD": 5000,
+    "livingCostUSD": 8500,
+    "applicationFeeUSD": 60,
+    "ranking": 133,
+    "website": "https://en.nju.edu.cn"
+  },
+  {
+    "id": "u204",
+    "name": "Wuhan University",
+    "country": "China",
+    "city": "Wuhan",
+    "region": "Asia",
+    "minGPA": 3.15,
+    "acceptanceRate": 0.42,
+    "fields": [
+      "Law",
+      "Natural Sciences",
+      "Engineering",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 4500,
+    "livingCostUSD": 7500,
+    "applicationFeeUSD": 50,
+    "ranking": 169,
+    "website": "https://en.whu.edu.cn"
+  },
+  {
+    "id": "u205",
+    "name": "Sun Yat-sen University",
+    "country": "China",
+    "city": "Guangzhou",
+    "region": "Asia",
+    "minGPA": 3.1,
+    "acceptanceRate": 0.44,
+    "fields": [
+      "Medicine",
+      "Natural Sciences",
+      "Business",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 4500,
+    "livingCostUSD": 8500,
+    "applicationFeeUSD": 50,
+    "ranking": 252,
+    "website": "https://www.sysu.edu.cn"
+  },
+  {
+    "id": "u206",
+    "name": "Harbin Institute of Technology",
+    "country": "China",
+    "city": "Harbin",
+    "region": "Asia",
+    "minGPA": 3.3,
+    "acceptanceRate": 0.34,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Natural Sciences",
+      "Mathematics"
+    ],
+    "tuitionIntlUSD": 4500,
+    "livingCostUSD": 7000,
+    "applicationFeeUSD": 50,
+    "ranking": 238,
+    "website": "https://en.hit.edu.cn"
+  },
+  {
+    "id": "u207",
+    "name": "Xi'an Jiaotong University",
+    "country": "China",
+    "city": "Xi'an",
+    "region": "Asia",
+    "minGPA": 3.05,
+    "acceptanceRate": 0.46,
+    "fields": [
+      "Engineering",
+      "Natural Sciences",
+      "Medicine",
+      "Business"
+    ],
+    "tuitionIntlUSD": 4500,
+    "livingCostUSD": 7000,
+    "applicationFeeUSD": 50,
+    "ranking": 275,
+    "website": "https://en.xjtu.edu.cn"
+  },
+  {
+    "id": "u208",
+    "name": "Beihang University",
+    "country": "China",
+    "city": "Beijing",
+    "region": "Asia",
+    "minGPA": 3.2,
+    "acceptanceRate": 0.4,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Mathematics",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 5000,
+    "livingCostUSD": 9000,
+    "applicationFeeUSD": 50,
+    "ranking": 238,
+    "website": "https://ev.buaa.edu.cn"
+  },
+  {
+    "id": "u209",
+    "name": "Tongji University",
+    "country": "China",
+    "city": "Shanghai",
+    "region": "Asia",
+    "minGPA": 3,
+    "acceptanceRate": 0.48,
+    "fields": [
+      "Engineering",
+      "Architecture",
+      "Natural Sciences",
+      "Business"
+    ],
+    "tuitionIntlUSD": 5000,
+    "livingCostUSD": 9500,
+    "applicationFeeUSD": 50,
+    "ranking": 264,
+    "website": "https://en.tongji.edu.cn"
+  },
+  {
+    "id": "u210",
+    "name": "Southeast University",
+    "country": "China",
+    "city": "Nanjing",
+    "region": "Asia",
+    "minGPA": 2.85,
+    "acceptanceRate": 0.55,
+    "fields": [
+      "Engineering",
+      "Architecture",
+      "Computer Science",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 4500,
+    "livingCostUSD": 7500,
+    "applicationFeeUSD": 50,
+    "ranking": 9999,
+    "website": "https://www.seu.edu.cn"
+  },
+  {
+    "id": "u211",
+    "name": "Indian Institute of Technology Madras",
+    "country": "India",
+    "city": "Chennai",
+    "region": "Asia",
+    "minGPA": 3.5,
+    "acceptanceRate": 0.2,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Mathematics",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 8500,
+    "livingCostUSD": 6000,
+    "applicationFeeUSD": 60,
+    "ranking": 227,
+    "website": "https://www.iitm.ac.in"
+  },
+  {
+    "id": "u212",
+    "name": "Indian Institute of Technology Kanpur",
+    "country": "India",
+    "city": "Kanpur",
+    "region": "Asia",
+    "minGPA": 3.45,
+    "acceptanceRate": 0.22,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Mathematics",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 8500,
+    "livingCostUSD": 5500,
+    "applicationFeeUSD": 60,
+    "ranking": 278,
+    "website": "https://www.iitk.ac.in"
+  },
+  {
+    "id": "u213",
+    "name": "Indian Institute of Technology Kharagpur",
+    "country": "India",
+    "city": "Kharagpur",
+    "region": "Asia",
+    "minGPA": 3.35,
+    "acceptanceRate": 0.25,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Architecture",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 8000,
+    "livingCostUSD": 5000,
+    "applicationFeeUSD": 60,
+    "ranking": 271,
+    "website": "https://www.iitkgp.ac.in"
+  },
+  {
+    "id": "u214",
+    "name": "Indian Institute of Technology Roorkee",
+    "country": "India",
+    "city": "Roorkee",
+    "region": "Asia",
+    "minGPA": 3.25,
+    "acceptanceRate": 0.28,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Architecture",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 8000,
+    "livingCostUSD": 5000,
+    "applicationFeeUSD": 55,
+    "ranking": 335,
+    "website": "https://www.iitr.ac.in"
+  },
+  {
+    "id": "u215",
+    "name": "Indian Institute of Technology Guwahati",
+    "country": "India",
+    "city": "Guwahati",
+    "region": "Asia",
+    "minGPA": 3.1,
+    "acceptanceRate": 0.32,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Natural Sciences",
+      "Mathematics"
+    ],
+    "tuitionIntlUSD": 7500,
+    "livingCostUSD": 4800,
+    "applicationFeeUSD": 55,
+    "ranking": 364,
+    "website": "https://www.iitg.ac.in"
+  },
+  {
+    "id": "u216",
+    "name": "National Institute of Technology Tiruchirappalli",
+    "country": "India",
+    "city": "Tiruchirappalli",
+    "region": "Asia",
+    "minGPA": 2.9,
+    "acceptanceRate": 0.4,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Architecture",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 6000,
+    "livingCostUSD": 4000,
+    "applicationFeeUSD": 45,
+    "ranking": 9999,
+    "website": "https://www.nitt.edu"
+  },
+  {
+    "id": "u217",
+    "name": "National Institute of Technology Karnataka",
+    "country": "India",
+    "city": "Surathkal",
+    "region": "Asia",
+    "minGPA": 2.85,
+    "acceptanceRate": 0.42,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Architecture",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 6000,
+    "livingCostUSD": 4000,
+    "applicationFeeUSD": 45,
+    "ranking": 9999,
+    "website": "https://www.nitk.ac.in"
+  },
+  {
+    "id": "u218",
+    "name": "Jawaharlal Nehru University",
+    "country": "India",
+    "city": "New Delhi",
+    "region": "Asia",
+    "minGPA": 2.7,
+    "acceptanceRate": 0.48,
+    "fields": [
+      "Social Sciences",
+      "Natural Sciences",
+      "Economics",
+      "Law"
+    ],
+    "tuitionIntlUSD": 3500,
+    "livingCostUSD": 4000,
+    "applicationFeeUSD": 35,
+    "ranking": 9999,
+    "website": "https://www.jnu.ac.in"
+  },
+  {
+    "id": "u219",
+    "name": "University of Delhi",
+    "country": "India",
+    "city": "New Delhi",
+    "region": "Asia",
+    "minGPA": 2.55,
+    "acceptanceRate": 0.55,
+    "fields": [
+      "Social Sciences",
+      "Natural Sciences",
+      "Law",
+      "Economics",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 3000,
+    "livingCostUSD": 4500,
+    "applicationFeeUSD": 35,
+    "ranking": 9999,
+    "website": "https://www.du.ac.in"
+  },
+  {
+    "id": "u220",
+    "name": "BITS Pilani",
+    "country": "India",
+    "city": "Pilani",
+    "region": "Asia",
+    "minGPA": 3,
+    "acceptanceRate": 0.35,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Business",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 9000,
+    "livingCostUSD": 4500,
+    "applicationFeeUSD": 60,
+    "ranking": 9999,
+    "website": "https://www.bits-pilani.ac.in"
+  },
+  {
+    "id": "u221",
+    "name": "Singapore Management University",
+    "country": "Singapore",
+    "city": "Singapore",
+    "region": "Asia",
+    "minGPA": 3.45,
+    "acceptanceRate": 0.28,
+    "fields": [
+      "Business",
+      "Economics",
+      "Law",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 28000,
+    "livingCostUSD": 15000,
+    "applicationFeeUSD": 75,
+    "ranking": 551,
+    "website": "https://www.smu.edu.sg"
+  },
+  {
+    "id": "u222",
+    "name": "Singapore University of Technology and Design",
+    "country": "Singapore",
+    "city": "Singapore",
+    "region": "Asia",
+    "minGPA": 3.4,
+    "acceptanceRate": 0.3,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Architecture",
+      "Mathematics"
+    ],
+    "tuitionIntlUSD": 28000,
+    "livingCostUSD": 14000,
+    "applicationFeeUSD": 75,
+    "ranking": 9999,
+    "website": "https://www.sutd.edu.sg"
+  },
+  {
+    "id": "u223",
+    "name": "Singapore Institute of Technology",
+    "country": "Singapore",
+    "city": "Singapore",
+    "region": "Asia",
+    "minGPA": 2.9,
+    "acceptanceRate": 0.55,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Business",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 22000,
+    "livingCostUSD": 13500,
+    "applicationFeeUSD": 60,
+    "ranking": 9999,
+    "website": "https://www.singaporetech.edu.sg"
+  },
+  {
+    "id": "u224",
+    "name": "Universiti Putra Malaysia",
+    "country": "Malaysia",
+    "city": "Serdang",
+    "region": "Asia",
+    "minGPA": 2.8,
+    "acceptanceRate": 0.58,
+    "fields": [
+      "Natural Sciences",
+      "Engineering",
+      "Business",
+      "Economics"
+    ],
+    "tuitionIntlUSD": 6500,
+    "livingCostUSD": 7000,
+    "applicationFeeUSD": 50,
+    "ranking": 9999,
+    "website": "https://www.upm.edu.my"
+  },
+  {
+    "id": "u225",
+    "name": "Universiti Kebangsaan Malaysia",
+    "country": "Malaysia",
+    "city": "Bangi",
+    "region": "Asia",
+    "minGPA": 2.7,
+    "acceptanceRate": 0.6,
+    "fields": [
+      "Natural Sciences",
+      "Social Sciences",
+      "Law",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 6000,
+    "livingCostUSD": 6500,
+    "applicationFeeUSD": 50,
+    "ranking": 9999,
+    "website": "https://www.ukm.my"
+  },
+  {
+    "id": "u226",
+    "name": "Universiti Sains Malaysia",
+    "country": "Malaysia",
+    "city": "Penang",
+    "region": "Asia",
+    "minGPA": 2.65,
+    "acceptanceRate": 0.62,
+    "fields": [
+      "Natural Sciences",
+      "Engineering",
+      "Medicine",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 6000,
+    "livingCostUSD": 6000,
+    "applicationFeeUSD": 50,
+    "ranking": 9999,
+    "website": "https://www.usm.my"
+  },
+  {
+    "id": "u227",
+    "name": "Universiti Teknologi Malaysia",
+    "country": "Malaysia",
+    "city": "Johor Bahru",
+    "region": "Asia",
+    "minGPA": 2.55,
+    "acceptanceRate": 0.65,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Architecture",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 5500,
+    "livingCostUSD": 6000,
+    "applicationFeeUSD": 45,
+    "ranking": 9999,
+    "website": "https://www.utm.my"
+  },
+  {
+    "id": "u228",
+    "name": "National Taiwan University",
+    "country": "Taiwan",
+    "city": "Taipei",
+    "region": "Asia",
+    "minGPA": 3.55,
+    "acceptanceRate": 0.24,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Natural Sciences",
+      "Business",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 6500,
+    "livingCostUSD": 10000,
+    "applicationFeeUSD": 50,
+    "ranking": 68,
+    "website": "https://www.ntu.edu.tw"
+  },
+  {
+    "id": "u229",
+    "name": "National Tsing Hua University",
+    "country": "Taiwan",
+    "city": "Hsinchu",
+    "region": "Asia",
+    "minGPA": 3.35,
+    "acceptanceRate": 0.32,
+    "fields": [
+      "Engineering",
+      "Natural Sciences",
+      "Computer Science",
+      "Mathematics"
+    ],
+    "tuitionIntlUSD": 6000,
+    "livingCostUSD": 9000,
+    "applicationFeeUSD": 50,
+    "ranking": 177,
+    "website": "https://www.nthu.edu.tw"
+  },
+  {
+    "id": "u230",
+    "name": "National Cheng Kung University",
+    "country": "Taiwan",
+    "city": "Tainan",
+    "region": "Asia",
+    "minGPA": 3.1,
+    "acceptanceRate": 0.42,
+    "fields": [
+      "Engineering",
+      "Architecture",
+      "Natural Sciences",
+      "Business"
+    ],
+    "tuitionIntlUSD": 5500,
+    "livingCostUSD": 8000,
+    "applicationFeeUSD": 50,
+    "ranking": 257,
+    "website": "https://www.ncku.edu.tw"
+  },
+  {
+    "id": "u231",
+    "name": "Yang Ming Chiao Tung University",
+    "country": "Taiwan",
+    "city": "Hsinchu",
+    "region": "Asia",
+    "minGPA": 3.2,
+    "acceptanceRate": 0.38,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Medicine",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 5500,
+    "livingCostUSD": 8500,
+    "applicationFeeUSD": 50,
+    "ranking": 9999,
+    "website": "https://www.nycu.edu.tw"
+  },
+  {
+    "id": "u232",
+    "name": "National Taiwan University of Science and Technology",
+    "country": "Taiwan",
+    "city": "Taipei",
+    "region": "Asia",
+    "minGPA": 2.9,
+    "acceptanceRate": 0.52,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Business",
+      "Architecture"
+    ],
+    "tuitionIntlUSD": 5500,
+    "livingCostUSD": 9500,
+    "applicationFeeUSD": 50,
+    "ranking": 9999,
+    "website": "https://www.ntust.edu.tw"
+  },
+  {
+    "id": "u233",
+    "name": "City University of Hong Kong",
+    "country": "Hong Kong",
+    "city": "Hong Kong",
+    "region": "Asia",
+    "minGPA": 3.3,
+    "acceptanceRate": 0.34,
+    "fields": [
+      "Business",
+      "Engineering",
+      "Computer Science",
+      "Law"
+    ],
+    "tuitionIntlUSD": 19000,
+    "livingCostUSD": 17000,
+    "applicationFeeUSD": 50,
+    "ranking": 70,
+    "website": "https://www.cityu.edu.hk"
+  },
+  {
+    "id": "u234",
+    "name": "Hong Kong Polytechnic University",
+    "country": "Hong Kong",
+    "city": "Hong Kong",
+    "region": "Asia",
+    "minGPA": 3.15,
+    "acceptanceRate": 0.4,
+    "fields": [
+      "Engineering",
+      "Business",
+      "Architecture",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 18000,
+    "livingCostUSD": 17000,
+    "applicationFeeUSD": 50,
+    "ranking": 66,
+    "website": "https://www.polyu.edu.hk"
+  },
+  {
+    "id": "u235",
+    "name": "Hong Kong Baptist University",
+    "country": "Hong Kong",
+    "city": "Hong Kong",
+    "region": "Asia",
+    "minGPA": 2.85,
+    "acceptanceRate": 0.55,
+    "fields": [
+      "Arts & Design",
+      "Business",
+      "Social Sciences",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 17000,
+    "livingCostUSD": 16500,
+    "applicationFeeUSD": 50,
+    "ranking": 281,
+    "website": "https://www.hkbu.edu.hk"
+  },
+  {
+    "id": "u236",
+    "name": "Lingnan University",
+    "country": "Hong Kong",
+    "city": "Hong Kong",
+    "region": "Asia",
+    "minGPA": 2.6,
+    "acceptanceRate": 0.65,
+    "fields": [
+      "Social Sciences",
+      "Business",
+      "Arts & Design",
+      "Economics"
+    ],
+    "tuitionIntlUSD": 16000,
+    "livingCostUSD": 16000,
+    "applicationFeeUSD": 45,
+    "ranking": 9999,
+    "website": "https://www.ln.edu.hk"
+  },
+  {
+    "id": "u237",
+    "name": "Chulalongkorn University",
+    "country": "Thailand",
+    "city": "Bangkok",
+    "region": "Asia",
+    "minGPA": 3,
+    "acceptanceRate": 0.46,
+    "fields": [
+      "Engineering",
+      "Business",
+      "Medicine",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 4500,
+    "livingCostUSD": 7000,
+    "applicationFeeUSD": 40,
+    "ranking": 9999,
+    "website": "https://www.chula.ac.th"
+  },
+  {
+    "id": "u238",
+    "name": "Mahidol University",
+    "country": "Thailand",
+    "city": "Bangkok",
+    "region": "Asia",
+    "minGPA": 2.95,
+    "acceptanceRate": 0.48,
+    "fields": [
+      "Medicine",
+      "Natural Sciences",
+      "Engineering",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 4000,
+    "livingCostUSD": 6500,
+    "applicationFeeUSD": 40,
+    "ranking": 9999,
+    "website": "https://www.mahidol.ac.th"
+  },
+  {
+    "id": "u239",
+    "name": "Thammasat University",
+    "country": "Thailand",
+    "city": "Bangkok",
+    "region": "Asia",
+    "minGPA": 2.7,
+    "acceptanceRate": 0.58,
+    "fields": [
+      "Business",
+      "Law",
+      "Economics",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 3800,
+    "livingCostUSD": 6500,
+    "applicationFeeUSD": 35,
+    "ranking": 9999,
+    "website": "https://www.tu.ac.th"
+  },
+  {
+    "id": "u240",
+    "name": "Chiang Mai University",
+    "country": "Thailand",
+    "city": "Chiang Mai",
+    "region": "Asia",
+    "minGPA": 2.5,
+    "acceptanceRate": 0.68,
+    "fields": [
+      "Natural Sciences",
+      "Social Sciences",
+      "Medicine",
+      "Engineering"
+    ],
+    "tuitionIntlUSD": 3200,
+    "livingCostUSD": 5000,
+    "applicationFeeUSD": 30,
+    "ranking": 9999,
+    "website": "https://www.cmu.ac.th"
+  },
+  {
+    "id": "u241",
+    "name": "Universitas Indonesia",
+    "country": "Indonesia",
+    "city": "Depok",
+    "region": "Asia",
+    "minGPA": 2.75,
+    "acceptanceRate": 0.6,
+    "fields": [
+      "Law",
+      "Social Sciences",
+      "Economics",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 3500,
+    "livingCostUSD": 5500,
+    "applicationFeeUSD": 35,
+    "ranking": 9999,
+    "website": "https://www.ui.ac.id"
+  },
+  {
+    "id": "u242",
+    "name": "Institut Teknologi Bandung",
+    "country": "Indonesia",
+    "city": "Bandung",
+    "region": "Asia",
+    "minGPA": 2.9,
+    "acceptanceRate": 0.52,
+    "fields": [
+      "Engineering",
+      "Natural Sciences",
+      "Architecture",
+      "Computer Science"
+    ],
+    "tuitionIntlUSD": 3800,
+    "livingCostUSD": 5000,
+    "applicationFeeUSD": 35,
+    "ranking": 9999,
+    "website": "https://www.itb.ac.id"
+  },
+  {
+    "id": "u243",
+    "name": "Universitas Gadjah Mada",
+    "country": "Indonesia",
+    "city": "Yogyakarta",
+    "region": "Asia",
+    "minGPA": 2.55,
+    "acceptanceRate": 0.68,
+    "fields": [
+      "Social Sciences",
+      "Natural Sciences",
+      "Medicine",
+      "Law"
+    ],
+    "tuitionIntlUSD": 3200,
+    "livingCostUSD": 4500,
+    "applicationFeeUSD": 30,
+    "ranking": 9999,
+    "website": "https://www.ugm.ac.id"
+  },
+  {
+    "id": "u244",
+    "name": "Vietnam National University, Hanoi",
+    "country": "Vietnam",
+    "city": "Hanoi",
+    "region": "Asia",
+    "minGPA": 2.6,
+    "acceptanceRate": 0.65,
+    "fields": [
+      "Natural Sciences",
+      "Social Sciences",
+      "Economics",
+      "Law"
+    ],
+    "tuitionIntlUSD": 2500,
+    "livingCostUSD": 4500,
+    "applicationFeeUSD": 25,
+    "ranking": 9999,
+    "website": "https://vnu.edu.vn"
+  },
+  {
+    "id": "u245",
+    "name": "Vietnam National University Ho Chi Minh City",
+    "country": "Vietnam",
+    "city": "Ho Chi Minh City",
+    "region": "Asia",
+    "minGPA": 2.55,
+    "acceptanceRate": 0.66,
+    "fields": [
+      "Natural Sciences",
+      "Engineering",
+      "Economics",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 2500,
+    "livingCostUSD": 4500,
+    "applicationFeeUSD": 25,
+    "ranking": 9999,
+    "website": "https://vnuhcm.edu.vn"
+  },
+  {
+    "id": "u246",
+    "name": "Hanoi University of Science and Technology",
+    "country": "Vietnam",
+    "city": "Hanoi",
+    "region": "Asia",
+    "minGPA": 2.75,
+    "acceptanceRate": 0.58,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 2800,
+    "livingCostUSD": 4200,
+    "applicationFeeUSD": 25,
+    "ranking": 9999,
+    "website": "https://hust.edu.vn"
+  },
+  {
+    "id": "u247",
+    "name": "University of the Philippines Diliman",
+    "country": "Philippines",
+    "city": "Quezon City",
+    "region": "Asia",
+    "minGPA": 2.8,
+    "acceptanceRate": 0.55,
+    "fields": [
+      "Social Sciences",
+      "Engineering",
+      "Natural Sciences",
+      "Law"
+    ],
+    "tuitionIntlUSD": 2500,
+    "livingCostUSD": 5000,
+    "applicationFeeUSD": 30,
+    "ranking": 9999,
+    "website": "https://upd.edu.ph"
+  },
+  {
+    "id": "u248",
+    "name": "Ateneo de Manila University",
+    "country": "Philippines",
+    "city": "Quezon City",
+    "region": "Asia",
+    "minGPA": 2.95,
+    "acceptanceRate": 0.5,
+    "fields": [
+      "Business",
+      "Social Sciences",
+      "Economics",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 7000,
+    "livingCostUSD": 6000,
+    "applicationFeeUSD": 40,
+    "ranking": 9999,
+    "website": "https://www.ateneo.edu"
+  },
+  {
+    "id": "u249",
+    "name": "De La Salle University",
+    "country": "Philippines",
+    "city": "Manila",
+    "region": "Asia",
+    "minGPA": 2.65,
+    "acceptanceRate": 0.62,
+    "fields": [
+      "Business",
+      "Engineering",
+      "Social Sciences",
+      "Education"
+    ],
+    "tuitionIntlUSD": 6500,
+    "livingCostUSD": 6000,
+    "applicationFeeUSD": 35,
+    "ranking": 9999,
+    "website": "https://www.dlsu.edu.ph"
+  },
+  {
+    "id": "u250",
+    "name": "Monash University",
+    "country": "Australia",
+    "city": "Melbourne",
+    "region": "Oceania",
+    "minGPA": 3.35,
+    "acceptanceRate": 0.35,
+    "fields": [
+      "Business",
+      "Engineering",
+      "Medicine",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 38000,
+    "livingCostUSD": 20000,
+    "applicationFeeUSD": 110,
+    "ranking": 42,
+    "website": "https://www.monash.edu"
+  },
+  {
+    "id": "u251",
+    "name": "University of Western Australia",
+    "country": "Australia",
+    "city": "Perth",
+    "region": "Oceania",
+    "minGPA": 3.1,
+    "acceptanceRate": 0.45,
+    "fields": [
+      "Natural Sciences",
+      "Engineering",
+      "Law",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 36000,
+    "livingCostUSD": 18000,
+    "applicationFeeUSD": 110,
+    "ranking": 90,
+    "website": "https://www.uwa.edu.au"
+  },
+  {
+    "id": "u252",
+    "name": "University of Adelaide",
+    "country": "Australia",
+    "city": "Adelaide",
+    "region": "Oceania",
+    "minGPA": 3,
+    "acceptanceRate": 0.48,
+    "fields": [
+      "Natural Sciences",
+      "Engineering",
+      "Business",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 35000,
+    "livingCostUSD": 17000,
+    "applicationFeeUSD": 100,
+    "ranking": 89,
+    "website": "https://www.adelaide.edu.au"
+  },
+  {
+    "id": "u253",
+    "name": "University of Technology Sydney",
+    "country": "Australia",
+    "city": "Sydney",
+    "region": "Oceania",
+    "minGPA": 2.85,
+    "acceptanceRate": 0.55,
+    "fields": [
+      "Business",
+      "Engineering",
+      "Computer Science",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 34000,
+    "livingCostUSD": 21000,
+    "applicationFeeUSD": 110,
+    "ranking": 90,
+    "website": "https://www.uts.edu.au"
+  },
+  {
+    "id": "u254",
+    "name": "Queensland University of Technology",
+    "country": "Australia",
+    "city": "Brisbane",
+    "region": "Oceania",
+    "minGPA": 2.75,
+    "acceptanceRate": 0.58,
+    "fields": [
+      "Business",
+      "Engineering",
+      "Education",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 32000,
+    "livingCostUSD": 17000,
+    "applicationFeeUSD": 100,
+    "ranking": 9999,
+    "website": "https://www.qut.edu.au"
+  },
+  {
+    "id": "u255",
+    "name": "RMIT University",
+    "country": "Australia",
+    "city": "Melbourne",
+    "region": "Oceania",
+    "minGPA": 2.65,
+    "acceptanceRate": 0.62,
+    "fields": [
+      "Business",
+      "Engineering",
+      "Arts & Design",
+      "Architecture"
+    ],
+    "tuitionIntlUSD": 33000,
+    "livingCostUSD": 19000,
+    "applicationFeeUSD": 100,
+    "ranking": 140,
+    "website": "https://www.rmit.edu.au"
+  },
+  {
+    "id": "u256",
+    "name": "Macquarie University",
+    "country": "Australia",
+    "city": "Sydney",
+    "region": "Oceania",
+    "minGPA": 2.7,
+    "acceptanceRate": 0.6,
+    "fields": [
+      "Business",
+      "Law",
+      "Social Sciences",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 33000,
+    "livingCostUSD": 20000,
+    "applicationFeeUSD": 100,
+    "ranking": 9999,
+    "website": "https://www.mq.edu.au"
+  },
+  {
+    "id": "u257",
+    "name": "Curtin University",
+    "country": "Australia",
+    "city": "Perth",
+    "region": "Oceania",
+    "minGPA": 2.55,
+    "acceptanceRate": 0.66,
+    "fields": [
+      "Engineering",
+      "Business",
+      "Natural Sciences",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 31000,
+    "livingCostUSD": 16000,
+    "applicationFeeUSD": 100,
+    "ranking": 9999,
+    "website": "https://www.curtin.edu.au"
+  },
+  {
+    "id": "u258",
+    "name": "University of Canterbury",
+    "country": "New Zealand",
+    "city": "Christchurch",
+    "region": "Oceania",
+    "minGPA": 2.8,
+    "acceptanceRate": 0.58,
+    "fields": [
+      "Engineering",
+      "Natural Sciences",
+      "Business",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 27000,
+    "livingCostUSD": 15000,
+    "applicationFeeUSD": 80,
+    "ranking": 9999,
+    "website": "https://www.canterbury.ac.nz"
+  },
+  {
+    "id": "u259",
+    "name": "Massey University",
+    "country": "New Zealand",
+    "city": "Palmerston North",
+    "region": "Oceania",
+    "minGPA": 2.55,
+    "acceptanceRate": 0.68,
+    "fields": [
+      "Business",
+      "Natural Sciences",
+      "Education",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 24000,
+    "livingCostUSD": 14000,
+    "applicationFeeUSD": 70,
+    "ranking": 9999,
+    "website": "https://www.massey.ac.nz"
+  },
+  {
+    "id": "u260",
+    "name": "United Arab Emirates University",
+    "country": "United Arab Emirates",
+    "city": "Al Ain",
+    "region": "Middle East",
+    "minGPA": 2.8,
+    "acceptanceRate": 0.55,
+    "fields": [
+      "Engineering",
+      "Business",
+      "Medicine",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 13000,
+    "livingCostUSD": 10000,
+    "applicationFeeUSD": 60,
+    "ranking": 9999,
+    "website": "https://www.uaeu.ac.ae"
+  },
+  {
+    "id": "u261",
+    "name": "Zayed University",
+    "country": "United Arab Emirates",
+    "city": "Dubai",
+    "region": "Middle East",
+    "minGPA": 2.6,
+    "acceptanceRate": 0.65,
+    "fields": [
+      "Business",
+      "Social Sciences",
+      "Arts & Design",
+      "Education"
+    ],
+    "tuitionIntlUSD": 14000,
+    "livingCostUSD": 12000,
+    "applicationFeeUSD": 55,
+    "ranking": 9999,
+    "website": "https://www.zu.ac.ae"
+  },
+  {
+    "id": "u262",
+    "name": "University of Sharjah",
+    "country": "United Arab Emirates",
+    "city": "Sharjah",
+    "region": "Middle East",
+    "minGPA": 2.7,
+    "acceptanceRate": 0.6,
+    "fields": [
+      "Engineering",
+      "Medicine",
+      "Business",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 13500,
+    "livingCostUSD": 10500,
+    "applicationFeeUSD": 55,
+    "ranking": 9999,
+    "website": "https://www.sharjah.ac.ae"
+  },
+  {
+    "id": "u263",
+    "name": "Hamad Bin Khalifa University",
+    "country": "Qatar",
+    "city": "Doha",
+    "region": "Middle East",
+    "minGPA": 3.1,
+    "acceptanceRate": 0.4,
+    "fields": [
+      "Social Sciences",
+      "Engineering",
+      "Law",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 0,
+    "livingCostUSD": 15000,
+    "applicationFeeUSD": 0,
+    "ranking": 9999,
+    "website": "https://www.hbku.edu.qa"
+  },
+  {
+    "id": "u264",
+    "name": "Texas A&M University at Qatar",
+    "country": "Qatar",
+    "city": "Doha",
+    "region": "Middle East",
+    "minGPA": 3.3,
+    "acceptanceRate": 0.3,
+    "fields": [
+      "Engineering",
+      "Computer Science",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 0,
+    "livingCostUSD": 15000,
+    "applicationFeeUSD": 0,
+    "ranking": 9999,
+    "website": "https://www.qatar.tamu.edu"
+  },
+  {
+    "id": "u265",
+    "name": "King Saud University",
+    "country": "Saudi Arabia",
+    "city": "Riyadh",
+    "region": "Middle East",
+    "minGPA": 2.9,
+    "acceptanceRate": 0.5,
+    "fields": [
+      "Engineering",
+      "Medicine",
+      "Business",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 0,
+    "livingCostUSD": 10000,
+    "applicationFeeUSD": 0,
+    "ranking": 201,
+    "website": "https://www.ksu.edu.sa"
+  },
+  {
+    "id": "u266",
+    "name": "King Fahd University of Petroleum and Minerals",
+    "country": "Saudi Arabia",
+    "city": "Dhahran",
+    "region": "Middle East",
+    "minGPA": 3.2,
+    "acceptanceRate": 0.35,
+    "fields": [
+      "Engineering",
+      "Natural Sciences",
+      "Computer Science",
+      "Mathematics"
+    ],
+    "tuitionIntlUSD": 0,
+    "livingCostUSD": 10000,
+    "applicationFeeUSD": 0,
+    "ranking": 191,
+    "website": "https://www.kfupm.edu.sa"
+  },
+  {
+    "id": "u267",
+    "name": "King Abdulaziz University",
+    "country": "Saudi Arabia",
+    "city": "Jeddah",
+    "region": "Middle East",
+    "minGPA": 2.75,
+    "acceptanceRate": 0.58,
+    "fields": [
+      "Engineering",
+      "Medicine",
+      "Business",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 0,
+    "livingCostUSD": 9500,
+    "applicationFeeUSD": 0,
+    "ranking": 143,
+    "website": "https://www.kau.edu.sa"
+  },
+  {
+    "id": "u268",
+    "name": "Koç University",
+    "country": "Turkey",
+    "city": "Istanbul",
+    "region": "Middle East",
+    "minGPA": 3.3,
+    "acceptanceRate": 0.2,
+    "fields": [
+      "Business",
+      "Engineering",
+      "Law",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 22000,
+    "livingCostUSD": 9000,
+    "applicationFeeUSD": 60,
+    "ranking": 9999,
+    "website": "https://www.ku.edu.tr"
+  },
+  {
+    "id": "u269",
+    "name": "Sabancı University",
+    "country": "Turkey",
+    "city": "Istanbul",
+    "region": "Middle East",
+    "minGPA": 3.2,
+    "acceptanceRate": 0.25,
+    "fields": [
+      "Business",
+      "Engineering",
+      "Natural Sciences",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 20000,
+    "livingCostUSD": 9000,
+    "applicationFeeUSD": 60,
+    "ranking": 9999,
+    "website": "https://www.sabanciuniv.edu"
+  },
+  {
+    "id": "u270",
+    "name": "Istanbul Technical University",
+    "country": "Turkey",
+    "city": "Istanbul",
+    "region": "Middle East",
+    "minGPA": 2.95,
+    "acceptanceRate": 0.42,
+    "fields": [
+      "Engineering",
+      "Architecture",
+      "Computer Science",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 5000,
+    "livingCostUSD": 7000,
+    "applicationFeeUSD": 40,
+    "ranking": 9999,
+    "website": "https://www.itu.edu.tr"
+  },
+  {
+    "id": "u271",
+    "name": "Bilkent University",
+    "country": "Turkey",
+    "city": "Ankara",
+    "region": "Middle East",
+    "minGPA": 3.1,
+    "acceptanceRate": 0.32,
+    "fields": [
+      "Engineering",
+      "Business",
+      "Social Sciences",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 12000,
+    "livingCostUSD": 7500,
+    "applicationFeeUSD": 50,
+    "ranking": 9999,
+    "website": "https://www.bilkent.edu.tr"
+  },
+  {
+    "id": "u272",
+    "name": "Hebrew University of Jerusalem",
+    "country": "Israel",
+    "city": "Jerusalem",
+    "region": "Middle East",
+    "minGPA": 3.3,
+    "acceptanceRate": 0.32,
+    "fields": [
+      "Natural Sciences",
+      "Law",
+      "Social Sciences",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 14000,
+    "livingCostUSD": 15000,
+    "applicationFeeUSD": 80,
+    "ranking": 164,
+    "website": "https://en.huji.ac.il"
+  },
+  {
+    "id": "u273",
+    "name": "Ben-Gurion University of the Negev",
+    "country": "Israel",
+    "city": "Beer Sheva",
+    "region": "Middle East",
+    "minGPA": 2.85,
+    "acceptanceRate": 0.55,
+    "fields": [
+      "Engineering",
+      "Natural Sciences",
+      "Medicine",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 12000,
+    "livingCostUSD": 12000,
+    "applicationFeeUSD": 70,
+    "ranking": 9999,
+    "website": "https://in.bgu.ac.il"
+  },
+  {
+    "id": "u274",
+    "name": "Weizmann Institute of Science",
+    "country": "Israel",
+    "city": "Rehovot",
+    "region": "Middle East",
+    "minGPA": 3.8,
+    "acceptanceRate": 0.1,
+    "fields": [
+      "Natural Sciences",
+      "Mathematics",
+      "Computer Science"
+    ],
+    "tuitionIntlUSD": 0,
+    "livingCostUSD": 15000,
+    "applicationFeeUSD": 0,
+    "ranking": 9999,
+    "website": "https://www.weizmann.ac.il"
+  },
+  {
+    "id": "u275",
+    "name": "American University in Cairo",
+    "country": "Egypt",
+    "city": "Cairo",
+    "region": "Africa",
+    "minGPA": 2.9,
+    "acceptanceRate": 0.55,
+    "fields": [
+      "Business",
+      "Social Sciences",
+      "Engineering",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 28000,
+    "livingCostUSD": 9000,
+    "applicationFeeUSD": 75,
+    "ranking": 9999,
+    "website": "https://www.aucegypt.edu"
+  },
+  {
+    "id": "u276",
+    "name": "Cairo University",
+    "country": "Egypt",
+    "city": "Giza",
+    "region": "Africa",
+    "minGPA": 2.55,
+    "acceptanceRate": 0.68,
+    "fields": [
+      "Medicine",
+      "Engineering",
+      "Law",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 4000,
+    "livingCostUSD": 5000,
+    "applicationFeeUSD": 30,
+    "ranking": 9999,
+    "website": "https://cu.edu.eg"
+  },
+  {
+    "id": "u277",
+    "name": "Mohammed V University",
+    "country": "Morocco",
+    "city": "Rabat",
+    "region": "Africa",
+    "minGPA": 2.5,
+    "acceptanceRate": 0.68,
+    "fields": [
+      "Law",
+      "Social Sciences",
+      "Natural Sciences",
+      "Engineering"
+    ],
+    "tuitionIntlUSD": 3000,
+    "livingCostUSD": 6000,
+    "applicationFeeUSD": 30,
+    "ranking": 9999,
+    "website": "https://www.um5.ac.ma"
+  },
+  {
+    "id": "u278",
+    "name": "Al Akhawayn University",
+    "country": "Morocco",
+    "city": "Ifrane",
+    "region": "Africa",
+    "minGPA": 2.7,
+    "acceptanceRate": 0.6,
+    "fields": [
+      "Business",
+      "Engineering",
+      "Social Sciences",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 13000,
+    "livingCostUSD": 7000,
+    "applicationFeeUSD": 50,
+    "ranking": 9999,
+    "website": "https://www.aui.ma"
+  },
+  {
+    "id": "u279",
+    "name": "University of Cape Town",
+    "country": "South Africa",
+    "city": "Cape Town",
+    "region": "Africa",
+    "minGPA": 3.15,
+    "acceptanceRate": 0.4,
+    "fields": [
+      "Business",
+      "Medicine",
+      "Engineering",
+      "Social Sciences",
+      "Law"
+    ],
+    "tuitionIntlUSD": 9000,
+    "livingCostUSD": 8000,
+    "applicationFeeUSD": 60,
+    "ranking": 171,
+    "website": "https://www.uct.ac.za"
+  },
+  {
+    "id": "u280",
+    "name": "University of the Witwatersrand",
+    "country": "South Africa",
+    "city": "Johannesburg",
+    "region": "Africa",
+    "minGPA": 2.95,
+    "acceptanceRate": 0.48,
+    "fields": [
+      "Engineering",
+      "Medicine",
+      "Law",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 8500,
+    "livingCostUSD": 7500,
+    "applicationFeeUSD": 55,
+    "ranking": 201,
+    "website": "https://www.wits.ac.za"
+  },
+  {
+    "id": "u281",
+    "name": "Stellenbosch University",
+    "country": "South Africa",
+    "city": "Stellenbosch",
+    "region": "Africa",
+    "minGPA": 2.85,
+    "acceptanceRate": 0.52,
+    "fields": [
+      "Business",
+      "Engineering",
+      "Natural Sciences",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 8000,
+    "livingCostUSD": 7000,
+    "applicationFeeUSD": 55,
+    "ranking": 9999,
+    "website": "https://www.sun.ac.za"
+  },
+  {
+    "id": "u282",
+    "name": "University of Nairobi",
+    "country": "Kenya",
+    "city": "Nairobi",
+    "region": "Africa",
+    "minGPA": 2.5,
+    "acceptanceRate": 0.68,
+    "fields": [
+      "Medicine",
+      "Engineering",
+      "Law",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 5000,
+    "livingCostUSD": 5500,
+    "applicationFeeUSD": 30,
+    "ranking": 9999,
+    "website": "https://www.uonbi.ac.ke"
+  },
+  {
+    "id": "u283",
+    "name": "Strathmore University",
+    "country": "Kenya",
+    "city": "Nairobi",
+    "region": "Africa",
+    "minGPA": 2.65,
+    "acceptanceRate": 0.62,
+    "fields": [
+      "Business",
+      "Law",
+      "Computer Science",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 7000,
+    "livingCostUSD": 6000,
+    "applicationFeeUSD": 40,
+    "ranking": 9999,
+    "website": "https://strathmore.edu"
+  },
+  {
+    "id": "u284",
+    "name": "University of Lagos",
+    "country": "Nigeria",
+    "city": "Lagos",
+    "region": "Africa",
+    "minGPA": 2.45,
+    "acceptanceRate": 0.7,
+    "fields": [
+      "Business",
+      "Medicine",
+      "Engineering",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 4500,
+    "livingCostUSD": 5000,
+    "applicationFeeUSD": 30,
+    "ranking": 9999,
+    "website": "https://unilag.edu.ng"
+  },
+  {
+    "id": "u285",
+    "name": "Covenant University",
+    "country": "Nigeria",
+    "city": "Ota",
+    "region": "Africa",
+    "minGPA": 2.6,
+    "acceptanceRate": 0.65,
+    "fields": [
+      "Business",
+      "Engineering",
+      "Computer Science",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 6000,
+    "livingCostUSD": 5500,
+    "applicationFeeUSD": 35,
+    "ranking": 9999,
+    "website": "https://covenantuniversity.edu.ng"
+  },
+  {
+    "id": "u286",
+    "name": "University of Alberta",
+    "country": "Canada",
+    "city": "Edmonton",
+    "region": "North America",
+    "minGPA": 3.1,
+    "acceptanceRate": 0.45,
+    "fields": [
+      "Engineering",
+      "Business",
+      "Natural Sciences",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 28000,
+    "livingCostUSD": 13000,
+    "applicationFeeUSD": 100,
+    "ranking": 9999,
+    "website": "https://www.ualberta.ca"
+  },
+  {
+    "id": "u287",
+    "name": "University of Calgary",
+    "country": "Canada",
+    "city": "Calgary",
+    "region": "North America",
+    "minGPA": 2.95,
+    "acceptanceRate": 0.5,
+    "fields": [
+      "Engineering",
+      "Business",
+      "Natural Sciences",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 27000,
+    "livingCostUSD": 13500,
+    "applicationFeeUSD": 100,
+    "ranking": 9999,
+    "website": "https://www.ucalgary.ca"
+  },
+  {
+    "id": "u288",
+    "name": "Queen's University",
+    "country": "Canada",
+    "city": "Kingston",
+    "region": "North America",
+    "minGPA": 3.3,
+    "acceptanceRate": 0.36,
+    "fields": [
+      "Business",
+      "Engineering",
+      "Law",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 35000,
+    "livingCostUSD": 14000,
+    "applicationFeeUSD": 110,
+    "ranking": 9999,
+    "website": "https://www.queensu.ca"
+  },
+  {
+    "id": "u289",
+    "name": "University of Ottawa",
+    "country": "Canada",
+    "city": "Ottawa",
+    "region": "North America",
+    "minGPA": 2.9,
+    "acceptanceRate": 0.52,
+    "fields": [
+      "Law",
+      "Social Sciences",
+      "Engineering",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 26000,
+    "livingCostUSD": 14000,
+    "applicationFeeUSD": 100,
+    "ranking": 9999,
+    "website": "https://www.uottawa.ca"
+  },
+  {
+    "id": "u290",
+    "name": "Western University",
+    "country": "Canada",
+    "city": "London",
+    "region": "North America",
+    "minGPA": 3.05,
+    "acceptanceRate": 0.46,
+    "fields": [
+      "Business",
+      "Medicine",
+      "Social Sciences",
+      "Engineering"
+    ],
+    "tuitionIntlUSD": 32000,
+    "livingCostUSD": 13500,
+    "applicationFeeUSD": 110,
+    "ranking": 9999,
+    "website": "https://www.uwo.ca"
+  },
+  {
+    "id": "u291",
+    "name": "Simon Fraser University",
+    "country": "Canada",
+    "city": "Burnaby",
+    "region": "North America",
+    "minGPA": 2.85,
+    "acceptanceRate": 0.55,
+    "fields": [
+      "Business",
+      "Computer Science",
+      "Social Sciences",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 27000,
+    "livingCostUSD": 14500,
+    "applicationFeeUSD": 100,
+    "ranking": 9999,
+    "website": "https://www.sfu.ca"
+  },
+  {
+    "id": "u292",
+    "name": "Universidad Nacional Autónoma de México",
+    "country": "Mexico",
+    "city": "Mexico City",
+    "region": "North America",
+    "minGPA": 2.75,
+    "acceptanceRate": 0.6,
+    "fields": [
+      "Law",
+      "Medicine",
+      "Social Sciences",
+      "Engineering",
+      "Arts & Design"
+    ],
+    "tuitionIntlUSD": 1500,
+    "livingCostUSD": 8000,
+    "applicationFeeUSD": 40,
+    "ranking": 105,
+    "website": "https://www.unam.mx"
+  },
+  {
+    "id": "u293",
+    "name": "Tecnológico de Monterrey",
+    "country": "Mexico",
+    "city": "Monterrey",
+    "region": "North America",
+    "minGPA": 3.1,
+    "acceptanceRate": 0.42,
+    "fields": [
+      "Business",
+      "Engineering",
+      "Computer Science",
+      "Economics"
+    ],
+    "tuitionIntlUSD": 14000,
+    "livingCostUSD": 9000,
+    "applicationFeeUSD": 60,
+    "ranking": 178,
+    "website": "https://tec.mx"
+  },
+  {
+    "id": "u294",
+    "name": "Universidad de Guadalajara",
+    "country": "Mexico",
+    "city": "Guadalajara",
+    "region": "North America",
+    "minGPA": 2.45,
+    "acceptanceRate": 0.7,
+    "fields": [
+      "Social Sciences",
+      "Business",
+      "Engineering",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 3000,
+    "livingCostUSD": 7000,
+    "applicationFeeUSD": 35,
+    "ranking": 9999,
+    "website": "https://www.udg.mx"
+  },
+  {
+    "id": "u295",
+    "name": "Universidade de São Paulo",
+    "country": "Brazil",
+    "city": "São Paulo",
+    "region": "South America",
+    "minGPA": 2.9,
+    "acceptanceRate": 0.5,
+    "fields": [
+      "Engineering",
+      "Medicine",
+      "Law",
+      "Social Sciences",
+      "Natural Sciences"
+    ],
+    "tuitionIntlUSD": 2000,
+    "livingCostUSD": 9000,
+    "applicationFeeUSD": 40,
+    "ranking": 115,
+    "website": "https://www5.usp.br"
+  },
+  {
+    "id": "u296",
+    "name": "Universidade Estadual de Campinas",
+    "country": "Brazil",
+    "city": "Campinas",
+    "region": "South America",
+    "minGPA": 2.8,
+    "acceptanceRate": 0.55,
+    "fields": [
+      "Engineering",
+      "Natural Sciences",
+      "Computer Science",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 2000,
+    "livingCostUSD": 8000,
+    "applicationFeeUSD": 35,
+    "ranking": 251,
+    "website": "https://www.unicamp.br"
+  },
+  {
+    "id": "u297",
+    "name": "Universidade Federal do Rio de Janeiro",
+    "country": "Brazil",
+    "city": "Rio de Janeiro",
+    "region": "South America",
+    "minGPA": 2.55,
+    "acceptanceRate": 0.65,
+    "fields": [
+      "Engineering",
+      "Natural Sciences",
+      "Social Sciences",
+      "Medicine"
+    ],
+    "tuitionIntlUSD": 1500,
+    "livingCostUSD": 8500,
+    "applicationFeeUSD": 30,
+    "ranking": 9999,
+    "website": "https://ufrj.br"
+  },
+  {
+    "id": "u298",
+    "name": "Universidad de Buenos Aires",
+    "country": "Argentina",
+    "city": "Buenos Aires",
+    "region": "South America",
+    "minGPA": 2.6,
+    "acceptanceRate": 0.75,
+    "fields": [
+      "Law",
+      "Medicine",
+      "Social Sciences",
+      "Economics",
+      "Engineering"
+    ],
+    "tuitionIntlUSD": 0,
+    "livingCostUSD": 7000,
+    "applicationFeeUSD": 0,
+    "ranking": 9999,
+    "website": "https://www.uba.ar"
+  },
+  {
+    "id": "u299",
+    "name": "Pontificia Universidad Católica de Chile",
+    "country": "Chile",
+    "city": "Santiago",
+    "region": "South America",
+    "minGPA": 2.95,
+    "acceptanceRate": 0.48,
+    "fields": [
+      "Business",
+      "Engineering",
+      "Law",
+      "Social Sciences"
+    ],
+    "tuitionIntlUSD": 9000,
+    "livingCostUSD": 8000,
+    "applicationFeeUSD": 50,
+    "ranking": 9999,
+    "website": "https://www.uc.cl"
+  },
+  {
+    "id": "u300",
+    "name": "Universidad de los Andes",
+    "country": "Colombia",
+    "city": "Bogotá",
+    "region": "South America",
+    "minGPA": 3,
+    "acceptanceRate": 0.44,
+    "fields": [
+      "Business",
+      "Engineering",
+      "Economics",
+      "Law"
+    ],
+    "tuitionIntlUSD": 11000,
+    "livingCostUSD": 7500,
+    "applicationFeeUSD": 55,
+    "ranking": 9999,
+    "website": "https://uniandes.edu.co"
   }
 ]

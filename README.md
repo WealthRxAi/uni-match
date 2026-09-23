@@ -1,7 +1,7 @@
 # UniMatch
 
 Find universities that fit your grades, your interests, and your budget — all
-in the browser, no sign-up, no backend.
+in the browser, no sign-up required.
 
 Enter your GPA (or convert from a percentage or letter grade), pick a few
 fields you're interested in, and instantly see a ranked list of universities
@@ -58,7 +58,11 @@ npm install
 npm run dev
 ```
 
-This starts a Vite dev server (default: http://localhost:5173).
+This starts a Vite dev server (default: http://localhost:5173). University
+data is queried from Supabase (`src/lib/queryUniversities.js`); a publishable
+anon key with sane fallbacks is baked into `src/lib/supabase.js`, so no `.env`
+file is required to run the app. Copy `.env.example` to `.env` to point at a
+different Supabase project.
 
 ### Other scripts
 
@@ -67,12 +71,16 @@ npm run validate   # validate src/data/universities.json against the schema
 npm run test       # run the matching/grading/filtering logic test suite
 npm run build      # produce a production build in dist/
 npm run preview    # locally preview the production build
+npm run seed       # upsert src/data/*.json into Supabase (needs SUPABASE_SERVICE_KEY)
 ```
 
 ## Deploying to Vercel
 
-UniMatch is a fully static, client-side Vite app — no environment variables
-or backend services are required.
+UniMatch is a static, client-side Vite app that reads from Supabase — no
+build-time environment variables are required, since a fallback URL/anon key
+are baked in. To point at a different Supabase project, set
+`VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` in the Vercel project's
+environment variables.
 
 1. Push this repository to GitHub (or GitLab/Bitbucket).
 2. In Vercel, click **Add New Project** and import the repository.
@@ -95,5 +103,8 @@ vercel --prod
 
 - Vite + React 18 (JavaScript, no TypeScript)
 - Custom CSS design system (`src/styles.css`) — no Tailwind, no UI libraries
-- Static, bundled dataset (`src/data/universities.json`)
-- No backend — fully deployable as a static site
+- Supabase (`public.unimatch_universities`) as the university dataset backend,
+  queried client-side via `@supabase/supabase-js`
+- `src/data/universities.json` remains as the curated seed source for
+  `npm run seed`, but is no longer imported into the app bundle
+- No custom server — fully deployable as a static site

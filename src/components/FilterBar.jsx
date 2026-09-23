@@ -1,6 +1,6 @@
 import { useMemo, useRef, useState } from "react";
 
-const REGIONS = ["North America", "Europe", "Asia", "Oceania", "Middle East"];
+const REGIONS = ["North America", "Europe", "Asia", "Oceania", "Middle East", "Africa", "South America"];
 
 function formatUSD(amount) {
   return amount.toLocaleString("en-US", {

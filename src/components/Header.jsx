@@ -6,7 +6,7 @@ function Header() {
           Uni<span className="wordmark__accent">Match</span>
         </div>
         <p className="tagline">
-          Find universities that fit your grades, your interests, and your budget
+          Match against 3,500+ universities worldwide by grades, interests, and budget
         </p>
       </div>
     </header>

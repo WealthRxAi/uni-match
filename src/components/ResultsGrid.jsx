@@ -38,7 +38,42 @@ function NoResults({ onReset }) {
   );
 }
 
-function ResultsGrid({ results, hasSearched, sortBy, onSortChange, onReset }) {
+function LoadingState() {
+  return (
+    <div className="empty-state" aria-live="polite" aria-busy="true">
+      <div className="spinner" role="status" aria-label="Loading matches" />
+      <h3 className="empty-state__title">Finding your matches…</h3>
+      <p className="empty-state__body">Searching universities that fit your profile.</p>
+    </div>
+  );
+}
+
+function ErrorState({ error, onRetry }) {
+  return (
+    <div className="empty-state" aria-live="assertive">
+      <div className="empty-state__illustration" aria-hidden="true">
+        <div className="empty-state__cap" />
+        <div className="empty-state__book" />
+      </div>
+      <h3 className="empty-state__title">Couldn't load universities</h3>
+      <p className="empty-state__body">{error}</p>
+      <button type="button" className="btn btn-secondary" onClick={onRetry}>
+        Retry
+      </button>
+    </div>
+  );
+}
+
+function ResultsGrid({
+  results,
+  hasSearched,
+  sortBy,
+  onSortChange,
+  onReset,
+  loading,
+  error,
+  onRetry,
+}) {
   return (
     <section aria-labelledby="results-heading">
       <div className="results-header">
@@ -63,7 +98,11 @@ function ResultsGrid({ results, hasSearched, sortBy, onSortChange, onReset }) {
         )}
       </div>
 
-      {!hasSearched ? (
+      {loading ? (
+        <LoadingState />
+      ) : error ? (
+        <ErrorState error={error} onRetry={onRetry} />
+      ) : !hasSearched ? (
         <EmptyState />
       ) : results.length === 0 ? (
         <NoResults onReset={onReset} />

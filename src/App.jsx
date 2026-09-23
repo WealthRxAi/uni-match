@@ -5,17 +5,17 @@ import ProfileForm from "./components/ProfileForm.jsx";
 import FilterBar from "./components/FilterBar.jsx";
 import StatsBar from "./components/StatsBar.jsx";
 import ResultsGrid from "./components/ResultsGrid.jsx";
-import universities from "./lib/loadUniversities.js";
+import { fetchCandidates, fetchCountries } from "./lib/queryUniversities.js";
 import { matchUniversities } from "./lib/match.js";
 import { filterResults, sortResults } from "./lib/filters.js";
 
-const countryOptions = [...new Set(universities.map((u) => u.country))].sort();
-
+// The full dataset (~6,300 rows across curated + Scorecard sources) lives in
+// Supabase now, so slider bounds are fixed rather than derived client-side.
 const bounds = {
-  minTuition: Math.min(...universities.map((u) => u.tuitionIntlUSD)),
-  maxTuition: Math.max(...universities.map((u) => u.tuitionIntlUSD)),
-  minTotal: Math.min(...universities.map((u) => u.tuitionIntlUSD + u.livingCostUSD)),
-  maxTotal: Math.max(...universities.map((u) => u.tuitionIntlUSD + u.livingCostUSD)),
+  minTuition: 0,
+  maxTuition: 80000,
+  minTotal: 0,
+  maxTotal: 120000,
 };
 
 function defaultFilters() {
@@ -33,6 +33,10 @@ function App() {
   const [filters, setFilters] = useState(defaultFilters);
   const [sortBy, setSortBy] = useState("match");
   const [filtersOpen, setFiltersOpen] = useState(false);
+  const [countryOptions, setCountryOptions] = useState([]);
+  const [candidates, setCandidates] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
   useEffect(() => {
     if (!filtersOpen) return;
@@ -43,14 +47,39 @@ function App() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [filtersOpen]);
 
+  useEffect(() => {
+    fetchCountries()
+      .then(setCountryOptions)
+      .catch(() => setCountryOptions([]));
+  }, []);
+
+  async function runSearch(nextProfile, searchFilters) {
+    setLoading(true);
+    setError(null);
+    try {
+      const rows = await fetchCandidates(nextProfile, searchFilters);
+      setCandidates(rows);
+      setProfile(nextProfile);
+    } catch (err) {
+      setError(err.message || "Something went wrong loading universities.");
+    } finally {
+      setLoading(false);
+    }
+  }
+
   function handleProfileSubmit({ gpa, interests }) {
-    setProfile({ gpa, interests });
-    setFilters((prev) => ({
-      ...prev,
+    const nextFilters = {
+      ...filters,
       maxTuition: bounds.maxTuition,
       maxTotalCost: bounds.maxTotal,
-    }));
+    };
+    setFilters(nextFilters);
     setSortBy("match");
+    runSearch({ gpa, interests }, nextFilters);
+  }
+
+  function retrySearch() {
+    if (profile) runSearch(profile, filters);
   }
 
   function resetFilters() {
@@ -60,8 +89,8 @@ function App() {
 
   const allResults = useMemo(() => {
     if (!profile) return [];
-    return matchUniversities(profile, universities);
-  }, [profile]);
+    return matchUniversities(profile, candidates);
+  }, [profile, candidates]);
 
   const filteredResults = useMemo(() => {
     return filterResults(allResults, filters);
@@ -119,13 +148,16 @@ function App() {
           </>
         )}
 
-        <StatsBar results={sortedResults} />
+        {!loading && !error && <StatsBar results={sortedResults} />}
         <ResultsGrid
           results={sortedResults}
           hasSearched={profile !== null}
           sortBy={sortBy}
           onSortChange={setSortBy}
           onReset={resetFilters}
+          loading={loading}
+          error={error}
+          onRetry={retrySearch}
         />
       </main>
       <Footer />

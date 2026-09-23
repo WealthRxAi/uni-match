@@ -795,6 +795,21 @@ p {
   max-width: 40ch;
 }
 
+.spinner {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 3px solid var(--color-border);
+  border-top-color: var(--accent-cyan);
+  animation: spinner-spin 0.8s linear infinite;
+}
+
+@keyframes spinner-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* Focus rings */
 
 .btn:focus-visible,

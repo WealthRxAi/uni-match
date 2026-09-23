@@ -22,7 +22,7 @@ const REQUIRED_KEYS = [
   "website",
 ];
 
-const VALID_REGIONS = ["North America", "Europe", "Asia", "Oceania", "Middle East"];
+const VALID_REGIONS = ["North America", "Europe", "Asia", "Oceania", "Middle East", "Africa", "South America"];
 
 const VALID_FIELDS = [
   "Computer Science",
