@@ -1,6 +1,20 @@
 import { useMemo, useRef, useState } from "react";
+import { US_STATES } from "../lib/usStates.js";
 
 const REGIONS = ["North America", "Europe", "Asia", "Oceania", "Middle East", "Africa", "South America"];
+const CONTROL_OPTIONS = ["Public", "Private nonprofit", "Private for-profit"];
+const SIZE_OPTIONS = [
+  { value: "Small", label: "Small" },
+  { value: "Medium", label: "Medium" },
+  { value: "Large", label: "Large" },
+];
+const SETTING_OPTIONS = ["City", "Suburb", "Town", "Rural"];
+const TEST_POLICY_OPTIONS = ["Required", "Optional", "Not considered"];
+const FLAG_OPTIONS = [
+  { value: "HBCU", label: "HBCU" },
+  { value: "HSI", label: "HSI" },
+  { value: "Women only", label: "Women only" },
+];
 
 function formatUSD(amount) {
   return amount.toLocaleString("en-US", {
@@ -90,7 +104,49 @@ function CountrySelect({ countryOptions, selected, onToggle }) {
   );
 }
 
+function ChipGroup({ label, options, selected, onToggle, getValue, getLabel }) {
+  return (
+    <div className="field">
+      <span className="field__label">{label}</span>
+      <div className="chip-group" role="group" aria-label={label}>
+        {options.map((option) => {
+          const value = getValue ? getValue(option) : option;
+          const text = getLabel ? getLabel(option) : option;
+          const isActive = selected.includes(value);
+          return (
+            <button
+              type="button"
+              key={value}
+              className={`chip ${isActive ? "chip--active" : ""}`}
+              aria-pressed={isActive}
+              onClick={() => onToggle(value)}
+            >
+              {text}
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+const EMPTY_ARRAY = [];
+
+function moreFilterCount(filters) {
+  let count = 0;
+  count += filters.control?.length || 0;
+  count += filters.sizeBucket?.length || 0;
+  count += filters.settingType?.length || 0;
+  if (filters.state) count += 1;
+  count += filters.testPolicy?.length || 0;
+  if (filters.minGradRate > 0) count += 1;
+  count += filters.flags?.length || 0;
+  return count;
+}
+
 function FilterBar({ filters, onChange, countryOptions, bounds, onClose }) {
+  const [moreOpen, setMoreOpen] = useState(false);
+
   function toggleCountry(country) {
     const next = filters.countries.includes(country)
       ? filters.countries.filter((c) => c !== country)
@@ -101,6 +157,14 @@ function FilterBar({ filters, onChange, countryOptions, bounds, onClose }) {
   function toggleRegion(region) {
     onChange({ ...filters, region: filters.region === region ? null : region });
   }
+
+  function toggleArrayFilter(key, value) {
+    const current = filters[key] || EMPTY_ARRAY;
+    const next = current.includes(value) ? current.filter((v) => v !== value) : [...current, value];
+    onChange({ ...filters, [key]: next });
+  }
+
+  const activeMoreCount = moreFilterCount(filters);
 
   return (
     <section className="card filter-bar" aria-labelledby="filters-heading">
@@ -188,6 +252,105 @@ function FilterBar({ filters, onChange, countryOptions, bounds, onClose }) {
         />
         Show reach schools
       </label>
+
+      <button
+        type="button"
+        className="filter-bar__more-toggle"
+        onClick={() => setMoreOpen((prev) => !prev)}
+        aria-expanded={moreOpen}
+        aria-controls="filter-bar-more"
+      >
+        <span>More filters</span>
+        {activeMoreCount > 0 && <span className="filter-count-badge">{activeMoreCount}</span>}
+        <span className="filter-bar__more-caret" aria-hidden="true">
+          {moreOpen ? "▲" : "▼"}
+        </span>
+      </button>
+
+      {moreOpen && (
+        <div id="filter-bar-more" className="filter-bar__more">
+          <ChipGroup
+            label="Type"
+            options={CONTROL_OPTIONS}
+            selected={filters.control || EMPTY_ARRAY}
+            onToggle={(value) => toggleArrayFilter("control", value)}
+          />
+
+          <ChipGroup
+            label="Size"
+            options={SIZE_OPTIONS}
+            selected={filters.sizeBucket || EMPTY_ARRAY}
+            onToggle={(value) => toggleArrayFilter("sizeBucket", value)}
+            getValue={(opt) => opt.value}
+            getLabel={(opt) => opt.label}
+          />
+
+          <ChipGroup
+            label="Setting"
+            options={SETTING_OPTIONS}
+            selected={filters.settingType || EMPTY_ARRAY}
+            onToggle={(value) => toggleArrayFilter("settingType", value)}
+          />
+
+          <div className="field">
+            <label className="field__label" htmlFor="state-select">
+              US state
+            </label>
+            <select
+              id="state-select"
+              className="select"
+              value={filters.state || ""}
+              onChange={(e) => onChange({ ...filters, state: e.target.value })}
+            >
+              <option value="">Any state</option>
+              {US_STATES.map((s) => (
+                <option key={s.code} value={s.code}>
+                  {s.name}
+                </option>
+              ))}
+            </select>
+          </div>
+
+          <ChipGroup
+            label="Test policy"
+            options={TEST_POLICY_OPTIONS}
+            selected={filters.testPolicy || EMPTY_ARRAY}
+            onToggle={(value) => toggleArrayFilter("testPolicy", value)}
+          />
+
+          <div className="field">
+            <label className="field__label" htmlFor="min-grad-rate">
+              Min graduation rate: {filters.minGradRate || 0}%
+            </label>
+            <input
+              id="min-grad-rate"
+              type="range"
+              className="slider"
+              min="0"
+              max="100"
+              step="5"
+              value={filters.minGradRate || 0}
+              onChange={(e) => onChange({ ...filters, minGradRate: Number(e.target.value) })}
+            />
+          </div>
+
+          <div className="field">
+            <span className="field__label">Special mission</span>
+            <div className="filter-bar__checkboxes">
+              {FLAG_OPTIONS.map((flag) => (
+                <label key={flag.value} className="filter-bar__checkbox">
+                  <input
+                    type="checkbox"
+                    checked={(filters.flags || EMPTY_ARRAY).includes(flag.value)}
+                    onChange={() => toggleArrayFilter("flags", flag.value)}
+                  />
+                  {flag.label}
+                </label>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   );
 }

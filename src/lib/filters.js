@@ -16,6 +16,19 @@ export function filterResults(results, filters) {
     if (totalAnnual > filters.maxTotalCost) return false;
     if (!filters.showReaches && r.label === LABELS.REACH) return false;
 
+    if (filters.control?.length > 0 && !filters.control.includes(u.control)) return false;
+    if (filters.sizeBucket?.length > 0 && !filters.sizeBucket.includes(u.sizeBucket)) return false;
+    if (filters.settingType?.length > 0 && !filters.settingType.includes(u.settingType)) return false;
+    if (filters.state && u.state !== filters.state) return false;
+    if (filters.testPolicy?.length > 0 && !filters.testPolicy.includes(u.testPolicy)) return false;
+    if (filters.minGradRate > 0) {
+      if (typeof u.gradRate !== "number" || u.gradRate * 100 < filters.minGradRate) return false;
+    }
+    if (filters.flags?.length > 0) {
+      const uFlags = u.flags || [];
+      if (!filters.flags.every((f) => uFlags.includes(f))) return false;
+    }
+
     return true;
   });
 }

@@ -3,6 +3,7 @@ import assert from "node:assert/strict";
 import { toGPA, SCALES } from "../src/lib/grades.js";
 import { matchUniversities, LABELS } from "../src/lib/match.js";
 import { filterResults, sortResults } from "../src/lib/filters.js";
+import { serializeSearchParams, parseSearchParams, buildShareUrl } from "../src/lib/shareLink.js";
 
 // --- grade conversion ---
 
@@ -130,5 +131,55 @@ assert.equal(filterResults([reachU], baseFilters({ showReaches: true })).length,
 
 // 19. Sorting an empty result set never throws
 assert.deepEqual(sortResults([], "cost"), []);
+
+// --- shareLink: serialize/parse round-trip ---
+
+const shareProfile = { gpa: 3.7, interests: ["Computer Science", "Arts & Design"] };
+const shareFilters = {
+  region: "Europe",
+  countries: ["Germany", "Korea, South"],
+  maxTuition: 25000,
+  maxTotalCost: 40000,
+  showReaches: false,
+  control: ["Public"],
+  sizeBucket: ["Small"],
+  settingType: [],
+  state: "CA",
+  testPolicy: ["Optional"],
+  minGradRate: 65,
+  flags: ["HBCU"],
+};
+
+// 20. Serializing then parsing round-trips gpa, interests, and filter values,
+//     including values containing a comma (the list separator)
+const serialized = serializeSearchParams(shareProfile, shareFilters);
+const { profile: parsedProfile, filters: parsedFilters } = parseSearchParams(serialized);
+assert.equal(parsedProfile.gpa, 3.7);
+assert.deepEqual(parsedProfile.interests, ["Computer Science", "Arts & Design"]);
+assert.equal(parsedFilters.region, "Europe");
+assert.deepEqual(parsedFilters.countries, ["Germany", "Korea, South"]);
+assert.equal(parsedFilters.maxTuition, 25000);
+assert.equal(parsedFilters.showReaches, false);
+assert.deepEqual(parsedFilters.control, ["Public"]);
+assert.equal(parsedFilters.state, "CA");
+assert.equal(parsedFilters.minGradRate, 65);
+assert.deepEqual(parsedFilters.flags, ["HBCU"]);
+
+// 21. Omitted/default fields are left out of the query string entirely
+//     (showReaches true and empty arrays produce no params)
+const minimalParams = serializeSearchParams({ gpa: 3.0, interests: [] }, { showReaches: true, countries: [] });
+assert.equal(minimalParams.has("interests"), false);
+assert.equal(minimalParams.has("countries"), false);
+assert.equal(minimalParams.has("showReaches"), false);
+
+// 22. Parsing a URL with no gpa param yields a null profile, not a partial one
+const { profile: emptyProfile } = parseSearchParams("region=Asia");
+assert.equal(emptyProfile, null);
+
+// 23. buildShareUrl appends a query string only when there's something to share
+assert.equal(buildShareUrl(null, null, "https://example.com/"), "https://example.com/");
+const shareUrl = buildShareUrl(shareProfile, shareFilters, "https://example.com/");
+assert.ok(shareUrl.startsWith("https://example.com/?"));
+assert.ok(shareUrl.includes("gpa=3.7"));
 
 console.log("All assertions passed.");

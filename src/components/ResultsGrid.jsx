@@ -66,6 +66,7 @@ function ErrorState({ error, onRetry }) {
 
 function ResultsGrid({
   results,
+  totalCount,
   hasSearched,
   sortBy,
   onSortChange,
@@ -73,6 +74,13 @@ function ResultsGrid({
   loading,
   error,
   onRetry,
+  onLoadMore,
+  compareIds,
+  compareMax,
+  onToggleCompare,
+  programsById,
+  onShare,
+  shareStatus,
 }) {
   return (
     <section aria-labelledby="results-heading">
@@ -81,20 +89,27 @@ function ResultsGrid({
           Results
         </h2>
         {hasSearched && results.length > 0 && (
-          <label className="results-sort">
-            <span className="field__label">Sort by</span>
-            <select
-              className="select"
-              value={sortBy}
-              onChange={(e) => onSortChange(e.target.value)}
-            >
-              {SORT_OPTIONS.map((option) => (
-                <option key={option.value} value={option.value}>
-                  {option.label}
-                </option>
-              ))}
-            </select>
-          </label>
+          <div className="results-header__actions">
+            <label className="results-sort">
+              <span className="field__label">Sort by</span>
+              <select
+                className="select"
+                value={sortBy}
+                onChange={(e) => onSortChange(e.target.value)}
+              >
+                {SORT_OPTIONS.map((option) => (
+                  <option key={option.value} value={option.value}>
+                    {option.label}
+                  </option>
+                ))}
+              </select>
+            </label>
+            {onShare && (
+              <button type="button" className="btn btn-secondary share-button" onClick={onShare}>
+                {shareStatus === "copied" ? "Link copied ✓" : shareStatus === "error" ? "Copy failed" : "Share results"}
+              </button>
+            )}
+          </div>
         )}
       </div>
 
@@ -107,15 +122,31 @@ function ResultsGrid({
       ) : results.length === 0 ? (
         <NoResults onReset={onReset} />
       ) : (
-        <div className="results-grid">
-          {results.map((result, index) => (
-            <UniversityCard
-              key={result.university.id}
-              result={result}
-              entranceDelay={Math.min(index, 10) * 40}
-            />
-          ))}
-        </div>
+        <>
+          <p className="results-count">
+            Showing {results.length} of {totalCount} matches
+          </p>
+          <div className="results-grid">
+            {results.map((result, index) => (
+              <UniversityCard
+                key={result.university.id}
+                result={result}
+                entranceDelay={Math.min(index, 10) * 40}
+                program={programsById?.[result.university.id] || null}
+                isCompared={compareIds?.includes(result.university.id)}
+                compareFull={compareIds?.length >= (compareMax || 4)}
+                onToggleCompare={onToggleCompare}
+              />
+            ))}
+          </div>
+          {results.length < totalCount && (
+            <div className="load-more-wrap">
+              <button type="button" className="btn btn-secondary" onClick={onLoadMore}>
+                Load more
+              </button>
+            </div>
+          )}
+        </>
       )}
     </section>
   );

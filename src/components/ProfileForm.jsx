@@ -17,10 +17,12 @@ const FIELD_TAGS = [
   "Architecture",
 ];
 
-function ProfileForm({ onSubmit }) {
+function ProfileForm({ onSubmit, initialProfile }) {
   const [scale, setScale] = useState(SCALES.GPA);
-  const [grade, setGrade] = useState("");
-  const [interests, setInterests] = useState([]);
+  const [grade, setGrade] = useState(() =>
+    typeof initialProfile?.gpa === "number" ? String(initialProfile.gpa) : ""
+  );
+  const [interests, setInterests] = useState(() => initialProfile?.interests || []);
   const [error, setError] = useState(null);
 
   function toggleInterest(tag) {

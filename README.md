@@ -4,8 +4,12 @@ Find universities that fit your grades, your interests, and your budget — all
 in the browser, no sign-up required.
 
 Enter your GPA (or convert from a percentage or letter grade), pick a few
-fields you're interested in, and instantly see a ranked list of universities
-with filters for country, region, tuition, and total cost of attendance.
+fields you're interested in, and instantly see a ranked list from **3,500+
+universities worldwide** — with filters for country, region, tuition, total
+cost of attendance, school type, size, campus setting, US state, test policy,
+and graduation rate. Every US school comes with real outcome data (graduation
+rate, median earnings, median debt) and program-level earnings by field of
+study, straight from the US Department of Education's College Scorecard.
 
 > 📸 **Screenshot placeholder** — drop a screenshot at `docs/screenshot.png`
 > and reference it here with `![UniMatch](docs/screenshot.png)` once the app
@@ -41,8 +45,31 @@ university's minimum GPA:
 | `Reach`   | Your GPA is up to 0.4 below minGPA  |
 
 Results are sorted by match score, and can be re-sorted by total annual cost
-or world ranking, then filtered by country, region, max tuition, and max
-total annual cost (tuition + estimated living costs).
+or world ranking, then filtered by country, region, max tuition, max total
+annual cost (tuition + estimated living costs), school type
+(public / private nonprofit / private for-profit), size, campus setting,
+US state, test policy, minimum graduation rate, and special-mission flags
+(HBCU, HSI, Tribal, women's/men's colleges, religious affiliation).
+
+You can also pin schools to a **compare tray** for a side-by-side view, and
+every search is encoded in the URL, so a filtered shortlist can be shared
+with a link.
+
+## The dataset
+
+| Slice | Count | Source |
+| --- | --- | --- |
+| US universities | 3,219 | [US Dept. of Education College Scorecard](https://collegescorecard.ed.gov/data/) (public domain) |
+| International universities | ~290 across 60+ countries | Curated dataset (`src/data/universities.json`) |
+| Program-level earnings records | 10,700+ | College Scorecard field-of-study files |
+
+US records include institutional outcomes — graduation rate, first-year
+retention, median earnings 10 years after entry, median student debt, SAT
+averages, and test policies — plus median earnings by field of study one and
+five years after graduation. Scorecard data is reprocessed with
+`scripts/process-scorecard.py`; international records are curated estimates
+intended for shortlisting, not as a substitute for a university's own
+published figures. Corrections and additions are welcome via pull request.
 
 Grades can be entered as a raw 4.0-scale GPA, a percentage (0–100), or a
 letter grade (A+ through D) — all are converted to a 4.0 scale before
@@ -103,8 +130,9 @@ vercel --prod
 
 - Vite + React 18 (JavaScript, no TypeScript)
 - Custom CSS design system (`src/styles.css`) — no Tailwind, no UI libraries
-- Supabase (`public.unimatch_universities`) as the university dataset backend,
-  queried client-side via `@supabase/supabase-js`
+- Supabase (`public.unimatch_universities` + `public.unimatch_programs`) as
+  the dataset backend, queried client-side via `@supabase/supabase-js` with
+  all filtering pushed down to the database
 - `src/data/universities.json` remains as the curated seed source for
   `npm run seed`, but is no longer imported into the app bundle
 - No custom server — fully deployable as a static site
