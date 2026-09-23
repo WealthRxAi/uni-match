@@ -10,3 +10,6 @@ npm-debug.log*
 !.vscode/extensions.json
 .idea
 .vercel
+
+vite.config.js.timestamp-*
+_loadsql/
